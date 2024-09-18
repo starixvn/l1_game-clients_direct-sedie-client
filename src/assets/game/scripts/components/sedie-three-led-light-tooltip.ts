@@ -6,17 +6,17 @@ import { LedLightTooltip } from "../../../../extensions/shared-components/assets
 const { ccclass, property } = _decorator;
 
 const BetChoice = {
-    RED: "red",
-    WHITE: "white",
+    EVEN: "even",
+    ODD: "odd",
 };
 
 @ccclass()
 export class SeDieThreeLedLightToolTip extends LedLightTooltip {
     @property(Label)
-    lblRed: Label = null;
+    lblOdd: Label = null;
 
     @property(Label)
-    lblWhite: Label = null;
+    lblEven: Label = null;
 
     private readonly dotsTotal = 3;
 
@@ -24,7 +24,7 @@ export class SeDieThreeLedLightToolTip extends LedLightTooltip {
         const { roundId, settlementResult, result } = ledLightInfo;
 
         this.roundId.string = `#${roundId}`;
-        const choiceWin = settlementResult[BetChoice.RED] ? BetChoice.RED : BetChoice.WHITE;
+        const choiceWin = settlementResult[BetChoice.EVEN] ? BetChoice.EVEN : BetChoice.ODD;
         this.result.string = gc.Translator.gameTranslate(`glossary_${choiceWin}`).toUpperCase();
 
         let countRed = 0;
@@ -33,7 +33,7 @@ export class SeDieThreeLedLightToolTip extends LedLightTooltip {
                 countRed++;
             }
         });
-        this.lblRed.string = `${countRed}`;
-        this.lblWhite.string = `${this.dotsTotal - countRed}`;
+        this.lblOdd.string = `${countRed}`;
+        this.lblEven.string = `${this.dotsTotal - countRed}`;
     }
 }

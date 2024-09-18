@@ -1,3 +1,4 @@
+import gc from "@sg/game-client-base";
 import { _decorator, tween, UIOpacity } from "cc";
 
 import MD5Component, { MD5Type } from "../../../../extensions/shared-components/assets/game/md5/scripts/md5-component";

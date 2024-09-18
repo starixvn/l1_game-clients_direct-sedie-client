@@ -18,6 +18,7 @@ export interface IResult {
     red1: boolean;
     red2: boolean;
     red3: boolean;
+    red4: boolean;
 }
 
 @ccclass()

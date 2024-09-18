@@ -1212,7 +1212,7 @@
     "labelContainer": {
       "__id__": 3
     },
-    "supportChoices": "red,red2,red3,red1,white,white3",
+    "supportChoices": "odd,red2,red3,red1,even,white3",
     "enablePercentage": true,
     "showSignPercentage": true,
     "_id": ""
@@ -4926,7 +4926,7 @@
       "0",
       "value"
     ],
-    "value": "red"
+    "value": "even"
   },
   {
     "__type__": "CCPropertyOverrideInfo",

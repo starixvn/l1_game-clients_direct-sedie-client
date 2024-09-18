@@ -7,16 +7,16 @@ const { ccclass, property } = _decorator;
 @ccclass()
 export class SeDieThreeResultBodyItem extends BaseResultBodyItem {
     @property(SpriteFrame)
-    sprRed: SpriteFrame = null;
+    sprOdd: SpriteFrame = null;
 
     @property(SpriteFrame)
-    sprWhite: SpriteFrame = null;
+    sprEven: SpriteFrame = null;
 
     setData(result: gc.BetHistory.DynamicObject<object>, settlementResult: gc.BetHistory.DynamicObject<boolean>) {
         const values = Object.values(result);
         values.sort((a, b) => Number(b) - Number(a));
         this.node.getComponentsInChildren(Sprite).forEach((component, i) => {
-            component.spriteFrame = values[i] ? this.sprRed : this.sprWhite;
+            component.spriteFrame = values[i] ? this.sprOdd : this.sprEven;
         });
     }
 }

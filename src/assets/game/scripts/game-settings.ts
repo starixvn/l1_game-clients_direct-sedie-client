@@ -4,12 +4,12 @@ import { LogStore } from "db://shared-components/game/scripts/stores/log-store";
 import { sharedContainer } from "../../scripts/shared-container";
 
 export const settings = {
-    id: 95,
-    name: "SeDie3",
-    namespaces: ["SeDie3"],
+    id: 2,
+    name: "SeDie",
+    namespaces: ["SeDie"],
     durations: {
         wholeRound: 39,
-        lockingBet: 3,
+        lockingBet: 5,
         placingBet: 30,
         generatingResult: 1,
         showingResult: 6,
