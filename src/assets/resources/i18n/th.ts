@@ -177,7 +177,15 @@ export const languages = {
         "glossary_white": "ขาว",
         "red_win": "แดงชนะ",
         "white_win": "ขาวชนะ"
-    }
+    },
+    SeDie: {
+        game_icon_name: "SE DIE",
+        game_name: "Se Die",
+        glossary_odd: "Odd",
+        glossary_even: "Even",
+        odd_win: "ODD WINS",
+        even_win: "EVEN WINS",
+    },
 };
 
 if (!win.languages) {

@@ -3670,7 +3670,7 @@
     "__prefab": {
       "__id__": 163
     },
-    "key": "SeDie3.glossary_red",
+    "key": "SeDie.glossary_odd",
     "format": 1,
     "prefix": "",
     "suffix": "",
@@ -3879,7 +3879,7 @@
     "__prefab": {
       "__id__": 175
     },
-    "key": "SeDie3.glossary_white",
+    "key": "SeDie.glossary_even",
     "format": 1,
     "prefix": "",
     "suffix": "",
