@@ -41,7 +41,7 @@ export default class Game extends GameComponent {
     protected enableFixHandleFinish = true;
     private audioContainer: AudioContainer = null;
     private winningResult: WinningResult = null;
-    private soundWinChoice = ["red", "white"];
+    private soundWinChoice = ["odd", "even"];
     private currentFinish: gc.GameServiceMessage.Finish = null;
 
     onLoad() {
@@ -61,8 +61,10 @@ export default class Game extends GameComponent {
             await this.compPlate.openPlate(hasAnimation);
             this.winningResult.setSettlementResult(settlementResult);
             this.winningResult.show();
-            const winChoice = this.soundWinChoice.find((choice) => settlementResult[choice]);
-            this.playSound(`${winChoice}_wins_${gc.Translator.getLanguageId()}`);
+
+            // wait for sounds: odd, even
+            // const winChoice = this.soundWinChoice.find((choice) => settlementResult[choice]);
+            // this.playSound(`${winChoice}_wins_${gc.Translator.getLanguageId()}`);
         }
     }
 

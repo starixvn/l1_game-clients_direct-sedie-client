@@ -13,9 +13,9 @@ export type ExtraInfos = {
 };
 
 @ccclass()
-export class SeDieThreeMD5 extends MD5Component {
-    readonly CHIP_RED = `<img src="chip_do" />`;
-    readonly CHIP_WHITE = `<img src="chip_trang" />`;
+export class SeDieMD5 extends MD5Component {
+    readonly CHIP_ODD = `<img src="chip_do" />`;
+    readonly CHIP_EVEN = `<img src="chip_trang" />`;
 
     private tipForHash = false;
 
@@ -36,10 +36,10 @@ export class SeDieThreeMD5 extends MD5Component {
 
     generateChips(totalRed: number) {
         const chips = {
-            0: `${this.CHIP_WHITE} ${this.CHIP_WHITE} ${this.CHIP_WHITE}`,
-            1: `${this.CHIP_RED} ${this.CHIP_WHITE} ${this.CHIP_WHITE}`,
-            2: `${this.CHIP_RED} ${this.CHIP_RED} ${this.CHIP_WHITE}`,
-            3: `${this.CHIP_RED} ${this.CHIP_RED} ${this.CHIP_RED}`,
+            0: `${this.CHIP_EVEN} ${this.CHIP_EVEN} ${this.CHIP_EVEN} ${this.CHIP_EVEN}`,
+            1: `${this.CHIP_ODD} ${this.CHIP_EVEN} ${this.CHIP_EVEN} ${this.CHIP_EVEN}`,
+            2: `${this.CHIP_ODD} ${this.CHIP_ODD} ${this.CHIP_EVEN} ${this.CHIP_EVEN}`,
+            3: `${this.CHIP_ODD} ${this.CHIP_ODD} ${this.CHIP_ODD} ${this.CHIP_ODD}`,
         };
 
         return chips.hasOwnProperty(totalRed) ? chips[totalRed] : "";
