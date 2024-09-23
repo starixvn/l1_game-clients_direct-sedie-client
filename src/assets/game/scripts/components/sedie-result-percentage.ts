@@ -1,6 +1,6 @@
 import gc from "@sg/game-client-base";
 import { _decorator } from "cc";
-import { ResultPercentage } from "../../../../extensions/shared-components/assets/game/result-percentage/scripts/result-percentage";
+import { ResultPercentage } from "db://shared-components/game/result-percentage/scripts/result-percentage";
 const { ccclass } = _decorator;
 @ccclass
 export class SeDieResultPercentage extends ResultPercentage {
@@ -8,30 +8,23 @@ export class SeDieResultPercentage extends ResultPercentage {
         const count = super.calculateWin(originalChoices, roundHistory);
         const total = roundHistory.length;
 
+        const calculatePercentage = (value: number) => Math.round((value * 100) / total);
+
         // Initialize the percentage object
         const percentage: Record<string, number> = {};
 
-        // Calculate red
-        const oddValue = Math.round((count["odd"] * 100) / total);
-        let red2Value = Math.round((count["red2"] * 100) / total);
-        if (red2Value > oddValue) {
-            red2Value = oddValue;
-        }
-
-        let red3Value = Math.round((count["red3"] * 100) / total);
-        if (red3Value + red2Value > oddValue) {
-            red3Value = oddValue - red2Value;
-        }
-
-        const red4Value = oddValue - (red2Value + red3Value);
-
-        // Calculate white
+        // Calculate odd and even percentages
+        const oddValue = calculatePercentage(count["odd"]);
         const evenValue = 100 - oddValue;
-        let white3Value = Math.round((count["white3"] * 100) / total);
-        if (white3Value > evenValue) {
-            white3Value = evenValue;
-        }
-        const white4Value = evenValue - white3Value;
+
+        // Calculate red2, white4, and red4 percentages for odd
+        let red2Value = Math.min(calculatePercentage(count["red2"]), evenValue);
+        let white4Value = Math.min(calculatePercentage(count["white4"]), evenValue - red2Value);
+        const red4Value = evenValue - (red2Value + white4Value);
+
+        // Calculate white3 and red3 percentages for even
+        let white3Value = Math.min(calculatePercentage(count["white3"]), oddValue);
+        const red3Value = oddValue - white3Value;
 
         // Assign calculated values to percentage object
         percentage["odd"] = oddValue;

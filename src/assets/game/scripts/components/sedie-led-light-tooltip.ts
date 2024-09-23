@@ -1,7 +1,7 @@
 import gc from "@sg/game-client-base";
 import { _decorator, Label } from "cc";
 
-import { LedLightTooltip } from "../../../../extensions/shared-components/assets/game/led-light/scripts/components/led-light-tooltip";
+import { LedLightTooltip } from "db://shared-components/game/led-light/scripts/components/led-light-tooltip";
 
 const { ccclass, property } = _decorator;
 
