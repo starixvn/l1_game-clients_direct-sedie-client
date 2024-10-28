@@ -11,7 +11,7 @@
         "progress": 1,
         "state": "success",
         "stage": "build",
-        "message": "1-5-2024 09:15:18 build success in 83791 ms!",
+        "message": "10-28-2024 14:43:23 build success in 98691 ms!",
         "options": {
           "name": "cocos-3x",
           "platform": "web-mobile",
@@ -79,7 +79,7 @@
           "bundleCommonChunk": false,
           "logDest": "project://temp/builder/log/web-mobile4-13-2023 09-39.log"
         },
-        "time": "1-5-2024 09:13:55",
+        "time": "10-28-2024 14:41:44",
         "dirty": false
       }
     }
