@@ -5465,15 +5465,15 @@
     "_enabled": true,
     "__prefab": null,
     "prefab": {
-      "__uuid__": "bfd81e4d-23fc-4d7c-884b-7bcd3dbfeb41",
+      "__uuid__": "371ed2ce-0a25-442f-b317-6c25f98ff9e8",
       "__expectedType__": "cc.Prefab"
     },
     "headerPrefab": {
-      "__uuid__": "096bd772-dff2-4721-b5be-1ab1ad88a5d6",
+      "__uuid__": "6b791b36-2b68-4f99-84ab-052c67217bd6",
       "__expectedType__": "cc.Prefab"
     },
     "bodyItemPrefab": {
-      "__uuid__": "a7728da4-6ad4-408d-b3ab-75fe8a8428c0",
+      "__uuid__": "41ac7bd2-c2ef-4136-86f8-62dc7175e367",
       "__expectedType__": "cc.Prefab"
     },
     "resultPrefab": {
