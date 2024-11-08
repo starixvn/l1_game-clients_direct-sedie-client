@@ -14,12 +14,19 @@ export type SedieBetItemType = {
     odd: number;
 };
 
+const { DateTimeUtils } = gc;
+
 @ccclass
 export class SedieBetHistoryNewBodyItem extends BetHistoryNewBodyItem {
     setData(data: BetHistoryBodyItemType) {
         super.setData(data);
 
         const betData: SedieBetItemType = data.betHistoryLog as any;
+        const { time } = data.betHistoryLog;
+        const date = DateTimeUtils.getStringDate1(time);
+        const hour = DateTimeUtils.getString12HourByTime(time);
+
+        console.log("date-hour: ", date, hour);
         const totalStake = betData.red2 + betData.red3 + betData.red4 + betData.white3 + betData.white4 + betData.even + betData.odd;
         this.lblTotalStake.string = gc.FormatUtils.numberWithCommas(totalStake, 2);
     }
