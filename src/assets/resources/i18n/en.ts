@@ -211,6 +211,14 @@ export const languages = {
         glossary_even: "Even",
         odd_win: "ODD WINS",
         even_win: "EVEN WINS",
+        choice_even: "Even",
+        choice_odd: "Odd",
+        choice_red2: "2 Red",
+        choice_red3: "3 Red",
+        choice_red4: "4 Red",
+        choice_white3: "1 Red",
+        choice_white4: "4 White",
+        betChoice2: "Bet Choice",
     },
 };
 

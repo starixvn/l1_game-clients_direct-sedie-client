@@ -190,6 +190,14 @@ export const languages = {
         glossary_even: "Even",
         odd_win: "ODD WINS",
         even_win: "EVEN WINS",
+        choice_even: "雙",
+        choice_odd: "單",
+        choice_red2: "2 紅",
+        choice_red3: "3 紅",
+        choice_red4: "4 紅",
+        choice_white3: "1 紅",
+        choice_white4: "4 白",
+        betChoice2: "投注選擇",
     },
 };
 

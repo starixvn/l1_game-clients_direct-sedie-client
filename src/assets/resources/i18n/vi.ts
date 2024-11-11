@@ -212,6 +212,14 @@ export const languages = {
         glossary_even: "Chẵn",
         odd_win: "LẺ THẮNG",
         even_win: "CHẴN THẮNG",
+        choice_even: "Chẵn",
+        choice_odd: "Lẻ",
+        choice_red2: "2 Đỏ",
+        choice_red3: "3 Đỏ",
+        choice_red4: "4 Đỏ",
+        choice_white3: "1 Đỏ",
+        choice_white4: "4 Trắng",
+        betChoice2: "Đặt",
     },
 };
 

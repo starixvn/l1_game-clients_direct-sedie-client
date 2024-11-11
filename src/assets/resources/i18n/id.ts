@@ -206,6 +206,14 @@ export const languages = {
         glossary_even: "Even",
         odd_win: "ODD WINS",
         even_win: "EVEN WINS",
+        choice_even: "Genap",
+        choice_odd: "Ganjil",
+        choice_red2: "2 Merah",
+        choice_red3: "3 Merah",
+        choice_red4: "4 Merah",
+        choice_white3: "1 Merah",
+        choice_white4: "4 Putih",
+        betChoice2: "Pilihan Taruhan",
     },
 };
 
