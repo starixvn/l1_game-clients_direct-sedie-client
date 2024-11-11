@@ -1,11 +1,11 @@
 import gc from "@sg/game-client-base";
 import { _decorator, Color, Label, Sprite, SpriteFrame } from "cc";
-import { BaseResultBodyItem } from "../../../../extensions/shared-components/assets/game/bet-history/scripts/components/bet-history-body-item";
+import { BaseResultBodyItem } from "db://shared-components/game/bet-history/scripts/components/bet-history-body-item";
 
 const { ccclass, property } = _decorator;
 
 @ccclass()
-export class SeDieThreeResultBodyItem extends BaseResultBodyItem {
+export class SeDieResultBodyItem extends BaseResultBodyItem {
     @property(Sprite)
     dot: Sprite = null;
 
