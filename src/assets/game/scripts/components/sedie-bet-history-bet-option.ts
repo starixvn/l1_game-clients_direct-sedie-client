@@ -1,15 +1,8 @@
 import gc from "@sg/game-client-base";
-import { _decorator, Color, Component, Label, Prefab } from "cc";
+import { _decorator, Color, Component, Label } from "cc";
 
 const { property, ccclass } = _decorator;
 
-export type BetHistoryBodyItemType = {
-    betHistoryLog: gc.BetHistory.BetHistoryLog;
-    index: number;
-    resultPrefab: Prefab | null;
-};
-
-//
 @ccclass
 export default class SeDieBetHistoryBetOption extends Component {
     @property(Label)

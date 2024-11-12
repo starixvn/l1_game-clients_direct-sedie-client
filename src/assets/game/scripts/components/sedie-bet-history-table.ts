@@ -1,9 +1,9 @@
 import gc from "@sg/game-client-base";
 import { _decorator, instantiate, Node, Prefab } from "cc";
 import { BetHistoryTable } from "db://shared-components/game/bet-history/scripts/components/bet-history-table";
-import { SeDieBetHistoryNewBodyItem } from "./sedie-bet-history-body-item";
+import { SeDieBetHistoryBodyItem } from "./sedie-bet-history-body-item";
 
-const { ccclass, property } = _decorator;
+const { ccclass } = _decorator;
 
 type SeDieBetHistoryTableType = {
     data: gc.BetHistory.BetHistoryModel;
@@ -16,7 +16,7 @@ type SeDieBetHistoryTableType = {
 @ccclass()
 export class SeDieBetHistoryTable extends BetHistoryTable {
     getHistoryItemComponent(node: Node) {
-        return node.getComponent(SeDieBetHistoryNewBodyItem);
+        return node.getComponent(SeDieBetHistoryBodyItem);
     }
 
     override buildBodyRow(

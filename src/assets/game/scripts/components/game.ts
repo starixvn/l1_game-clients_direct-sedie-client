@@ -15,10 +15,10 @@ import { containerOptions, settings } from "../game-settings";
 import { IResult, Plate } from "./plate";
 
 startGame(settings.name, containerOptions, siteConfigs, settings.namespaces);
-const { Rounds, Connection, HideGame, Settlements, FormatUtils, RoundHistories, GameBaccaratX } = gc;
+const { Rounds, RoundHistories } = gc;
 
 const { ccclass, property } = _decorator;
-const { observer, render, handle } = Observer;
+const { observer, render } = Observer;
 
 @ccclass
 @observer(settings.name)

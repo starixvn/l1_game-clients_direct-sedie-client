@@ -1,33 +1,26 @@
 import gc from "@sg/game-client-base";
-import { _decorator, instantiate, Label, Node, Prefab } from "cc";
+import { _decorator, Button, Color, instantiate, Label, Node, Prefab } from "cc";
 import { BetHistoryNewBodyItem } from "db://shared-components/game/bet-history-new/scripts/bet-history-new-body-item";
 import { BetHistoryBodyItemType } from "db://shared-components/game/bet-history/scripts/components/bet-history-body-item";
 import SeDieBetHistoryBetOption from "./sedie-bet-history-bet-option";
 const { ccclass, property } = _decorator;
 
-export type SeDieBetItemType = {
-    red2: number;
-    red3: number;
-    red4: number;
-    white3: number;
-    white4: number;
-    even: number;
-    odd: number;
-};
-
-export type SeDieBetHistoryBodyItemType = BetHistoryBodyItemType & {
+type SeDieBetHistoryBodyItemType = BetHistoryBodyItemType & {
     betsPrefab: Prefab | null;
 };
 
 const { DateTimeUtils, FormatUtils } = gc;
 
 @ccclass
-export class SeDieBetHistoryNewBodyItem extends BetHistoryNewBodyItem {
-    @property(Label)
-    lblHour: Label = null;
+export class SeDieBetHistoryBodyItem extends BetHistoryNewBodyItem {
+    @property({ type: Label, override: true, visible: false })
+    lblTime: Label = null;
 
-    @property(Label)
-    lblDate: Label = null;
+    @property({ type: Label, override: true, visible: false })
+    lblTotalStake: Label = null;
+
+    @property({ type: Button, override: true, visible: false })
+    btnRound: Button = null;
 
     @property(Node)
     betOption: Node = null;
@@ -35,17 +28,15 @@ export class SeDieBetHistoryNewBodyItem extends BetHistoryNewBodyItem {
     setData(data: SeDieBetHistoryBodyItemType) {
         super.setData(data);
         const { betsPrefab } = data;
-
-        const betData: SeDieBetItemType = data.betHistoryLog as any;
-        const { time, settlementResult, freeBet, odds } = data.betHistoryLog;
+        const { time, settlementResult, freeBet, odds, betwin } = data.betHistoryLog;
         if (time) {
             const date = DateTimeUtils.getStringDate(time);
             const hour = DateTimeUtils.getStringHourByTime(time);
-            this.lblDate.string = date;
-            this.lblHour.string = hour;
-
-            console.log("date-hour: ", date, hour);
+            this.lblDate && (this.lblDate.string = date);
+            this.lblHour && (this.lblHour.string = hour);
         }
+
+        this.lblWin && (this.lblWin.color = betwin >= 0 ? new Color().fromHEX("F1E344") : new Color().fromHEX("EB3D26"));
 
         if (settlementResult) {
             Object.keys(settlementResult).forEach((choice) => {

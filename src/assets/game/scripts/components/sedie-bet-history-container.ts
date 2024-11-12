@@ -8,7 +8,7 @@ const { ccclass, property } = _decorator;
 const { render } = Observer;
 const { BetHistory } = gc;
 
-@ccclass("SeDieBetHistoryContainer")
+@ccclass
 export default class SeDieBetHistoryContainer extends BetHistoryContainer {
     @property(Prefab)
     betPrefab: Prefab = null;

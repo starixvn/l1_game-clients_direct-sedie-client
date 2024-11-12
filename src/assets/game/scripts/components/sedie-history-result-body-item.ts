@@ -5,7 +5,7 @@ import { BaseResultBodyItem } from "db://shared-components/game/bet-history/scri
 const { ccclass, property } = _decorator;
 
 @ccclass()
-export class SeDieResultBodyItem extends BaseResultBodyItem {
+export class SeDieHistoryResultBodyItem extends BaseResultBodyItem {
     @property(Sprite)
     dot: Sprite = null;
 
