@@ -1758,8 +1758,8 @@
     "_string": "BET HISTORY",
     "_horizontalAlign": 1,
     "_verticalAlign": 1,
-    "_actualFontSize": 24,
-    "_fontSize": 24,
+    "_actualFontSize": 26,
+    "_fontSize": 26,
     "_fontFamily": "Arial",
     "_lineHeight": 56,
     "_overflow": 0,
@@ -1814,7 +1814,7 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 163.51171875,
+      "width": 177.1376953125,
       "height": 70.56
     },
     "_anchorPoint": {
