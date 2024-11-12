@@ -13,7 +13,6 @@ export default class SeDieBetHistoryContainer extends BetHistoryContainer {
     @property(Prefab)
     betPrefab: Prefab = null;
 
-    @render(BetHistory.BetHistoryStore, (store) => store.betHistoryModel, { fireImmediately: false })
     showBetHistory(betHistoryModel: gc.BetHistory.BetHistoryModel) {
         if (!this.wrapperNode?.active) {
             this.wrapperNode = this.createNode();
