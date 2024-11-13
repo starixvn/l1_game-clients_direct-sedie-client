@@ -199,6 +199,21 @@
                 <key>textureRotated</key>
                 <false/>
             </dict>
+            <key>portrait_bottom_bg.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0,0}</string>
+                <key>spriteSize</key>
+                <string>{794,71}</string>
+                <key>spriteSourceSize</key>
+                <string>{794,71}</string>
+                <key>textureRect</key>
+                <string>{{3,3},{794,71}}</string>
+                <key>textureRotated</key>
+                <true/>
+            </dict>
             <key>portrait_logs_bg.png</key>
             <dict>
                 <key>aliases</key>
@@ -273,7 +288,7 @@
             <key>size</key>
             <string>{512,1024}</string>
             <key>smartupdate</key>
-            <string>$TexturePacker:SmartUpdate:33f42ee31592c64ea1a267e62f262059:0fb992f52339e1d54351e9ff1640f1f6:eabdee996efeea0589181ec9e9a262f8$</string>
+            <string>$TexturePacker:SmartUpdate:e63ae8d286f044a6e8580cf290df9fa9:b8f6f8d023240b3bc3843986fb0b9dd5:eabdee996efeea0589181ec9e9a262f8$</string>
             <key>textureFileName</key>
             <string>sedie.png</string>
         </dict>
