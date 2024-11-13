@@ -179,7 +179,7 @@
       "a": 255
     },
     "_spriteFrame": {
-      "__uuid__": "2d67d332-0b65-4c26-aacf-03f54c9217cc@47d80",
+      "__uuid__": "8fef9c53-58c5-484c-ac20-c888cb9863d0@47d80",
       "__expectedType__": "cc.SpriteFrame"
     },
     "_type": 0,
@@ -4671,11 +4671,11 @@
       "__id__": 43
     },
     "frameDotOdd": {
-      "__uuid__": "2d67d332-0b65-4c26-aacf-03f54c9217cc@1238c",
+      "__uuid__": "8fef9c53-58c5-484c-ac20-c888cb9863d0@1238c",
       "__expectedType__": "cc.SpriteFrame"
     },
     "frameDotEven": {
-      "__uuid__": "2d67d332-0b65-4c26-aacf-03f54c9217cc@90c95",
+      "__uuid__": "8fef9c53-58c5-484c-ac20-c888cb9863d0@90c95",
       "__expectedType__": "cc.SpriteFrame"
     },
     "_id": ""
@@ -4693,6 +4693,7 @@
       "__id__": 0
     },
     "fileId": "6fp4jnBrBD1Lcefecs8Lkd",
+    "instance": null,
     "targetOverrides": [],
     "nestedPrefabInstanceRoots": [
       {
