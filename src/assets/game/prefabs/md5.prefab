@@ -787,10 +787,7 @@
       "__expectedType__": "cc.TTFFont"
     },
     "_cacheMode": 0,
-    "_imageAtlas": {
-      "__uuid__": "2d67d332-0b65-4c26-aacf-03f54c9217cc",
-      "__expectedType__": "cc.SpriteAtlas"
-    },
+    "_imageAtlas": null,
     "_handleTouchEvent": true,
     "_id": ""
   },
@@ -2145,7 +2142,7 @@
     "nodeContentContainer": {
       "__id__": 21
     },
-    "lengthOfMd5": 21,
+    "lengthOfMd5": 100,
     "md5Tip": null,
     "maximumStringAllowed": 40,
     "_id": ""
@@ -2167,6 +2164,9 @@
     "targetOverrides": [
       {
         "__id__": 118
+      },
+      {
+        "__id__": 120
       }
     ],
     "nestedPrefabInstanceRoots": [
@@ -2190,6 +2190,28 @@
     },
     "targetInfo": {
       "__id__": 119
+    }
+  },
+  {
+    "__type__": "cc.TargetInfo",
+    "localID": [
+      "54hlt+rgJBUrpyNdDkDTxB"
+    ]
+  },
+  {
+    "__type__": "cc.TargetOverrideInfo",
+    "source": {
+      "__id__": 115
+    },
+    "sourceInfo": null,
+    "propertyPath": [
+      "md5Tip"
+    ],
+    "target": {
+      "__id__": 55
+    },
+    "targetInfo": {
+      "__id__": 121
     }
   },
   {
