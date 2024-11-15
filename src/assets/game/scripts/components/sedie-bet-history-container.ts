@@ -10,30 +10,52 @@ export default class SeDieBetHistoryContainer extends BetHistoryContainer {
     @property(Prefab)
     betPrefab: Prefab = null;
 
-    DURATION_DELAY_RENDER_DATA = 0.1;
-    currentBetHistoryModel: gc.BetHistory.BetHistoryModel = null;
+    protected isFirstLoad = true;
+    protected DURATION_DELAY_RENDER_DATA = 0.1;
+    protected currentBetHistoryModel: gc.BetHistory.BetHistoryModel = null;
 
     showBetHistory(betHistoryModel: gc.BetHistory.BetHistoryModel) {
         this.currentBetHistoryModel = betHistoryModel;
+
         if (!this.wrapperNode?.active) {
-            this.wrapperNode = this.createNode();
-            this.table = this.wrapperNode.getComponent(SeDieBetHistoryTable);
+            this.initializeWrapperNode();
         }
 
-        const seDieTable = this.table as SeDieBetHistoryTable;
-        seDieTable.dialog &&
-            (seDieTable.dialog.callBackFn = () => {
-                if (!betHistoryModel) {
-                    this.scheduleOnce(seDieTable.dialog.callBackFn, this.DURATION_DELAY_RENDER_DATA);
-                    return;
-                }
-                (this.table as SeDieBetHistoryTable).showBetHistory({
-                    data: this.currentBetHistoryModel,
-                    headerPrefab: this.headerPrefab,
-                    bodyItemPrefab: this.bodyItemPrefab,
-                    resultPrefab: this.resultPrefab,
-                    betsPrefab: this.betPrefab,
-                });
-            });
+        if (this.isFirstLoad) {
+            const seDieTable = this.table as SeDieBetHistoryTable;
+            if (seDieTable?.dialog) {
+                seDieTable.dialog.callBackFn = this.createCallBackFn(seDieTable, betHistoryModel);
+            }
+            return;
+        }
+
+        this.renderBetHistory();
+    }
+
+    protected initializeWrapperNode() {
+        this.wrapperNode = this.createNode();
+        this.table = this.wrapperNode.getComponent(SeDieBetHistoryTable);
+        this.isFirstLoad = true;
+    }
+
+    protected createCallBackFn(seDieTable: SeDieBetHistoryTable, betHistoryModel: gc.BetHistory.BetHistoryModel) {
+        return () => {
+            if (!betHistoryModel) {
+                this.scheduleOnce(seDieTable.dialog.callBackFn, this.DURATION_DELAY_RENDER_DATA);
+                return;
+            }
+            this.renderBetHistory();
+            this.isFirstLoad = false;
+        };
+    }
+
+    protected renderBetHistory() {
+        (this.table as SeDieBetHistoryTable).showBetHistory({
+            data: this.currentBetHistoryModel,
+            headerPrefab: this.headerPrefab,
+            bodyItemPrefab: this.bodyItemPrefab,
+            resultPrefab: this.resultPrefab,
+            betsPrefab: this.betPrefab,
+        });
     }
 }
