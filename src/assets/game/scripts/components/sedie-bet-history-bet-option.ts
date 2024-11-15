@@ -14,7 +14,15 @@ export default class SeDieBetHistoryBetOption extends Component {
     protected convertChoiceData(choice: string): string {
         let betChoice = "";
         const choiceData = ["even", "odd", "red2", "red3", "red4", "white3", "white4"];
-        const choiceStr = ["choice_even", "choice_odd", "choice_red2", "choice_red3", "choice_red4", "choice_white3", "choice_white4"];
+        const choiceStr = [
+            "glossary_even",
+            "glossary_odd",
+            "bet_option_red2",
+            "bet_option_red3",
+            "bet_option_red4",
+            "bet_option_white3",
+            "bet_option_white4",
+        ];
         choiceData.forEach((item, index) => {
             if (choice === item) {
                 betChoice = choiceStr[index];
