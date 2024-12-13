@@ -49,7 +49,8 @@ export default class Game extends GameComponent {
         this.compPlate = this.nodePlate.getComponent(Plate);
         this.winningResult = this.nodeWinning.getComponent(WinningResult);
         super.onLoad();
-        document.getElementById("LoadingPercentage").innerText = "100%";
+
+        localStorage.setItem("loading", "1");
         setTimeout(() => {
             document.getElementById("GameDiv").style.opacity = "1";
         }, 100);
