@@ -3380,8 +3380,8 @@
     "__prefab": null,
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 153.748046875,
-      "height": 44.32
+      "width": 201.94140625,
+      "height": 45.58
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -3410,13 +3410,13 @@
       "b": 255,
       "a": 255
     },
-    "_string": "LẺ THẮNG",
+    "_string": "CHẴN THẮNG",
     "_horizontalAlign": 1,
     "_verticalAlign": 1,
     "_actualFontSize": 28,
     "_fontSize": 28,
     "_fontFamily": "",
-    "_lineHeight": 32,
+    "_lineHeight": 33,
     "_overflow": 0,
     "_enableWrapText": true,
     "_font": {
@@ -3511,7 +3511,7 @@
     "_contentSize": {
       "__type__": "cc.Size",
       "width": 314,
-      "height": 67
+      "height": 77
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -3563,7 +3563,7 @@
     },
     "_type": 0,
     "_fillType": 0,
-    "_sizeMode": 1,
+    "_sizeMode": 0,
     "_fillCenter": {
       "__type__": "cc.Vec2",
       "x": 0,
