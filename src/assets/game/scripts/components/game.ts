@@ -67,9 +67,8 @@ export default class Game extends GameComponent {
             this.winningResult.setSettlementResult(settlementResult);
             this.winningResult.show();
 
-            // wait for sounds: odd, even
-            // const winChoice = this.soundWinChoice.find((choice) => settlementResult[choice]);
-            // this.playSound(`${winChoice}_wins_${gc.Translator.getLanguageId()}`);
+            const winChoice = this.soundWinChoice.find((choice) => settlementResult[choice]);
+            this.playSound(`${winChoice}_wins_${gc.Translator.getLanguageId()}`);
         }
     }
 
@@ -100,7 +99,6 @@ export default class Game extends GameComponent {
             return;
         }
         const roundTime = firstJoinGameHistory.roundTime;
-        console.log("join game round time", roundTime);
 
         const lastRound = firstJoinGameHistory.roundHistory as any;
         if (lastRound) {
