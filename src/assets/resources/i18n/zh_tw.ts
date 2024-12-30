@@ -186,12 +186,12 @@ export const languages = {
         "bet_option_red4": "4 紅",
         "bet_option_white3": "1 紅",
         "bet_option_white4": "4 白",
-        "even_win": "EVEN WINS",
+        "even_win": "雙贏",
         "game_icon_name": "色碟",
         "game_name": "色碟",
         "glossary_even": "雙",
         "glossary_odd": "單",
-        "odd_win": "ODD WINS"
+        "odd_win": "單贏"
     }
 };
 
