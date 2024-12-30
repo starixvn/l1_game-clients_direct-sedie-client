@@ -173,8 +173,8 @@
     },
     "_lpos": {
       "__type__": "cc.Vec3",
-      "x": -297.12,
-      "y": 0,
+      "x": -301.916,
+      "y": 2.398,
       "z": 0
     },
     "_lrot": {
@@ -225,8 +225,8 @@
     "_string": "Time",
     "_horizontalAlign": 0,
     "_verticalAlign": 1,
-    "_actualFontSize": 22,
-    "_fontSize": 22,
+    "_actualFontSize": 21,
+    "_fontSize": 21,
     "_fontFamily": "Arial",
     "_lineHeight": 44,
     "_overflow": 0,
@@ -281,7 +281,7 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 56.353515625,
+      "width": 53.7919921875,
       "height": 55.44
     },
     "_anchorPoint": {
@@ -404,8 +404,8 @@
     },
     "_lpos": {
       "__type__": "cc.Vec3",
-      "x": -180.873,
-      "y": 0,
+      "x": -194.061,
+      "y": 2.398,
       "z": 0
     },
     "_lrot": {
@@ -456,8 +456,8 @@
     "_string": "Round",
     "_horizontalAlign": 0,
     "_verticalAlign": 1,
-    "_actualFontSize": 22,
-    "_fontSize": 22,
+    "_actualFontSize": 21,
+    "_fontSize": 21,
     "_fontFamily": "Arial",
     "_lineHeight": 44,
     "_overflow": 0,
@@ -512,7 +512,7 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 72.66015625,
+      "width": 69.357421875,
       "height": 55.44
     },
     "_anchorPoint": {
@@ -635,8 +635,8 @@
     },
     "_lpos": {
       "__type__": "cc.Vec3",
-      "x": -85.881,
-      "y": 0,
+      "x": -93.075,
+      "y": 2.398,
       "z": 0
     },
     "_lrot": {
@@ -687,8 +687,8 @@
     "_string": "Result",
     "_horizontalAlign": 0,
     "_verticalAlign": 1,
-    "_actualFontSize": 22,
-    "_fontSize": 22,
+    "_actualFontSize": 21,
+    "_fontSize": 21,
     "_fontFamily": "Arial",
     "_lineHeight": 44,
     "_overflow": 0,
@@ -743,7 +743,7 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 70.16796875,
+      "width": 66.978515625,
       "height": 55.44
     },
     "_anchorPoint": {
@@ -863,8 +863,8 @@
     },
     "_lpos": {
       "__type__": "cc.Vec3",
-      "x": 67.289,
-      "y": 0,
+      "x": 45.504,
+      "y": 2.398,
       "z": 0
     },
     "_lrot": {
@@ -915,8 +915,8 @@
     "_string": "Bet Choice",
     "_horizontalAlign": 0,
     "_verticalAlign": 1,
-    "_actualFontSize": 22,
-    "_fontSize": 22,
+    "_actualFontSize": 21,
+    "_fontSize": 21,
     "_fontFamily": "Arial",
     "_lineHeight": 44,
     "_overflow": 0,
@@ -952,7 +952,7 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 116.703125,
+      "width": 111.3984375,
       "height": 55.44
     },
     "_anchorPoint": {
@@ -1075,8 +1075,8 @@
     },
     "_lpos": {
       "__type__": "cc.Vec3",
-      "x": 206.533,
-      "y": 0,
+      "x": 198.14,
+      "y": 2.398,
       "z": 0
     },
     "_lrot": {
@@ -1127,8 +1127,8 @@
     "_string": "Stake",
     "_horizontalAlign": 0,
     "_verticalAlign": 1,
-    "_actualFontSize": 22,
-    "_fontSize": 22,
+    "_actualFontSize": 21,
+    "_fontSize": 21,
     "_fontFamily": "Arial",
     "_lineHeight": 44,
     "_overflow": 0,
@@ -1183,7 +1183,7 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 61.0908203125,
+      "width": 58.31396484375,
       "height": 55.44
     },
     "_anchorPoint": {
@@ -1307,7 +1307,7 @@
     "_lpos": {
       "__type__": "cc.Vec3",
       "x": 296.909,
-      "y": 0,
+      "y": 2.398,
       "z": 0
     },
     "_lrot": {
@@ -1358,8 +1358,8 @@
     "_string": "Win",
     "_horizontalAlign": 0,
     "_verticalAlign": 1,
-    "_actualFontSize": 22,
-    "_fontSize": 22,
+    "_actualFontSize": 21,
+    "_fontSize": 21,
     "_fontFamily": "Arial",
     "_lineHeight": 44,
     "_overflow": 0,
@@ -1414,7 +1414,7 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 45.890625,
+      "width": 43.8046875,
       "height": 55.44
     },
     "_anchorPoint": {
@@ -1538,7 +1538,7 @@
     "_lpos": {
       "__type__": "cc.Vec3",
       "x": 296.909,
-      "y": 0,
+      "y": 2.398,
       "z": 0
     },
     "_lrot": {
@@ -1590,7 +1590,7 @@
     "_horizontalAlign": 0,
     "_verticalAlign": 1,
     "_actualFontSize": 35,
-    "_fontSize": 22,
+    "_fontSize": 21,
     "_fontFamily": "Arial",
     "_lineHeight": 44,
     "_overflow": 0,
