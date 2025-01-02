@@ -217,9 +217,9 @@
     "_dstBlendFactor": 4,
     "_color": {
       "__type__": "cc.Color",
-      "r": 237,
-      "g": 187,
-      "b": 2,
+      "r": 253,
+      "g": 230,
+      "b": 0,
       "a": 255
     },
     "_string": "Time",
@@ -242,6 +242,29 @@
     "_isUnderline": false,
     "_underlineHeight": 0,
     "_cacheMode": 1,
+    "_enableOutline": false,
+    "_outlineColor": {
+      "__type__": "cc.Color",
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "a": 255
+    },
+    "_outlineWidth": 2,
+    "_enableShadow": false,
+    "_shadowColor": {
+      "__type__": "cc.Color",
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "a": 255
+    },
+    "_shadowOffset": {
+      "__type__": "cc.Vec2",
+      "x": 2,
+      "y": 2
+    },
+    "_shadowBlur": 2,
     "_id": ""
   },
   {
@@ -349,7 +372,6 @@
     "__prefab": {
       "__id__": 15
     },
-    "isBitmapCacheMode": true,
     "_id": ""
   },
   {
@@ -448,9 +470,9 @@
     "_dstBlendFactor": 4,
     "_color": {
       "__type__": "cc.Color",
-      "r": 237,
-      "g": 187,
-      "b": 2,
+      "r": 253,
+      "g": 230,
+      "b": 0,
       "a": 255
     },
     "_string": "Round",
@@ -473,6 +495,29 @@
     "_isUnderline": false,
     "_underlineHeight": 0,
     "_cacheMode": 1,
+    "_enableOutline": false,
+    "_outlineColor": {
+      "__type__": "cc.Color",
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "a": 255
+    },
+    "_outlineWidth": 2,
+    "_enableShadow": false,
+    "_shadowColor": {
+      "__type__": "cc.Color",
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "a": 255
+    },
+    "_shadowOffset": {
+      "__type__": "cc.Vec2",
+      "x": 2,
+      "y": 2
+    },
+    "_shadowBlur": 2,
     "_id": ""
   },
   {
@@ -580,7 +625,6 @@
     "__prefab": {
       "__id__": 29
     },
-    "isBitmapCacheMode": true,
     "_id": ""
   },
   {
@@ -679,9 +723,9 @@
     "_dstBlendFactor": 4,
     "_color": {
       "__type__": "cc.Color",
-      "r": 237,
-      "g": 187,
-      "b": 2,
+      "r": 253,
+      "g": 230,
+      "b": 0,
       "a": 255
     },
     "_string": "Result",
@@ -704,6 +748,29 @@
     "_isUnderline": false,
     "_underlineHeight": 0,
     "_cacheMode": 1,
+    "_enableOutline": false,
+    "_outlineColor": {
+      "__type__": "cc.Color",
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "a": 255
+    },
+    "_outlineWidth": 2,
+    "_enableShadow": false,
+    "_shadowColor": {
+      "__type__": "cc.Color",
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "a": 255
+    },
+    "_shadowOffset": {
+      "__type__": "cc.Vec2",
+      "x": 2,
+      "y": 2
+    },
+    "_shadowBlur": 2,
     "_id": ""
   },
   {
@@ -811,7 +878,6 @@
     "__prefab": {
       "__id__": 43
     },
-    "isBitmapCacheMode": true,
     "_id": ""
   },
   {
@@ -907,9 +973,9 @@
     "_dstBlendFactor": 4,
     "_color": {
       "__type__": "cc.Color",
-      "r": 237,
-      "g": 187,
-      "b": 2,
+      "r": 253,
+      "g": 230,
+      "b": 0,
       "a": 255
     },
     "_string": "Bet Choice",
@@ -932,6 +998,29 @@
     "_isUnderline": false,
     "_underlineHeight": 0,
     "_cacheMode": 1,
+    "_enableOutline": false,
+    "_outlineColor": {
+      "__type__": "cc.Color",
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "a": 255
+    },
+    "_outlineWidth": 2,
+    "_enableShadow": false,
+    "_shadowColor": {
+      "__type__": "cc.Color",
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "a": 255
+    },
+    "_shadowOffset": {
+      "__type__": "cc.Vec2",
+      "x": 2,
+      "y": 2
+    },
+    "_shadowBlur": 2,
     "_id": ""
   },
   {
@@ -1020,7 +1109,6 @@
     "__prefab": {
       "__id__": 55
     },
-    "isBitmapCacheMode": false,
     "_id": ""
   },
   {
@@ -1119,9 +1207,9 @@
     "_dstBlendFactor": 4,
     "_color": {
       "__type__": "cc.Color",
-      "r": 237,
-      "g": 187,
-      "b": 2,
+      "r": 253,
+      "g": 230,
+      "b": 0,
       "a": 255
     },
     "_string": "Stake",
@@ -1144,6 +1232,29 @@
     "_isUnderline": false,
     "_underlineHeight": 0,
     "_cacheMode": 1,
+    "_enableOutline": false,
+    "_outlineColor": {
+      "__type__": "cc.Color",
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "a": 255
+    },
+    "_outlineWidth": 2,
+    "_enableShadow": false,
+    "_shadowColor": {
+      "__type__": "cc.Color",
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "a": 255
+    },
+    "_shadowOffset": {
+      "__type__": "cc.Vec2",
+      "x": 2,
+      "y": 2
+    },
+    "_shadowBlur": 2,
     "_id": ""
   },
   {
@@ -1251,7 +1362,6 @@
     "__prefab": {
       "__id__": 69
     },
-    "isBitmapCacheMode": true,
     "_id": ""
   },
   {
@@ -1350,9 +1460,9 @@
     "_dstBlendFactor": 4,
     "_color": {
       "__type__": "cc.Color",
-      "r": 237,
-      "g": 187,
-      "b": 2,
+      "r": 253,
+      "g": 230,
+      "b": 0,
       "a": 255
     },
     "_string": "Win",
@@ -1375,6 +1485,29 @@
     "_isUnderline": false,
     "_underlineHeight": 0,
     "_cacheMode": 1,
+    "_enableOutline": false,
+    "_outlineColor": {
+      "__type__": "cc.Color",
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "a": 255
+    },
+    "_outlineWidth": 2,
+    "_enableShadow": false,
+    "_shadowColor": {
+      "__type__": "cc.Color",
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "a": 255
+    },
+    "_shadowOffset": {
+      "__type__": "cc.Vec2",
+      "x": 2,
+      "y": 2
+    },
+    "_shadowBlur": 2,
     "_id": ""
   },
   {
@@ -1482,7 +1615,6 @@
     "__prefab": {
       "__id__": 83
     },
-    "isBitmapCacheMode": true,
     "_id": ""
   },
   {
@@ -1581,9 +1713,9 @@
     "_dstBlendFactor": 4,
     "_color": {
       "__type__": "cc.Color",
-      "r": 237,
-      "g": 187,
-      "b": 2,
+      "r": 253,
+      "g": 230,
+      "b": 0,
       "a": 255
     },
     "_string": "Win Loss",
@@ -1606,6 +1738,29 @@
     "_isUnderline": false,
     "_underlineHeight": 0,
     "_cacheMode": 1,
+    "_enableOutline": false,
+    "_outlineColor": {
+      "__type__": "cc.Color",
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "a": 255
+    },
+    "_outlineWidth": 2,
+    "_enableShadow": false,
+    "_shadowColor": {
+      "__type__": "cc.Color",
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "a": 255
+    },
+    "_shadowOffset": {
+      "__type__": "cc.Vec2",
+      "x": 2,
+      "y": 2
+    },
+    "_shadowBlur": 2,
     "_id": ""
   },
   {
@@ -1691,7 +1846,6 @@
     "__prefab": {
       "__id__": 95
     },
-    "isBitmapCacheMode": true,
     "_id": ""
   },
   {
