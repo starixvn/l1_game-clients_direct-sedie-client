@@ -5,7 +5,7 @@
   "uuid": "20044b1a-8048-4076-97c5-f59b9fd710e4",
   "files": [
     ".json",
-    ".png"
+    ".webp"
   ],
   "subMetas": {
     "6c48a": {
@@ -127,7 +127,7 @@
   },
   "userData": {
     "type": "sprite-frame",
-    "fixAlphaTransparencyArtifacts": true,
+    "fixAlphaTransparencyArtifacts": false,
     "hasAlpha": true,
     "redirect": "20044b1a-8048-4076-97c5-f59b9fd710e4@6c48a"
   }

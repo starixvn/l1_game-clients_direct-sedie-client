@@ -269,13 +269,13 @@
             <key>premultiplyAlpha</key>
             <false/>
             <key>realTextureFileName</key>
-            <string>sedie.png</string>
+            <string>sedie.webp</string>
             <key>size</key>
             <string>{512,512}</string>
             <key>smartupdate</key>
-            <string>$TexturePacker:SmartUpdate:995c70b2a30354b3a4e1fca446907716:f0f06bf7d6f3107b67b8972dad153b2c:eabdee996efeea0589181ec9e9a262f8$</string>
+            <string>$TexturePacker:SmartUpdate:0b88ee2f3466725b1345f13c6ee9f428:f0f06bf7d6f3107b67b8972dad153b2c:5b92b359debe7f583d69ddcd61b3ab07$</string>
             <key>textureFileName</key>
-            <string>sedie.png</string>
+            <string>sedie.webp</string>
         </dict>
     </dict>
 </plist>
