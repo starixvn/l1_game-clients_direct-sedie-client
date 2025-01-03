@@ -101,7 +101,7 @@
     "_prefab": null,
     "_lpos": {
       "__type__": "cc.Vec3",
-      "x": 393.00000000000006,
+      "x": 384.00000000000006,
       "y": 699,
       "z": 0
     },
@@ -282,7 +282,7 @@
     "__prefab": null,
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 786,
+      "width": 768,
       "height": 1398
     },
     "_anchorPoint": {
@@ -417,7 +417,7 @@
     "_lpos": {
       "__type__": "cc.Vec3",
       "x": 0,
-      "y": 0,
+      "y": 16.007633587786245,
       "z": 0
     },
     "_lrot": {
@@ -429,8 +429,8 @@
     },
     "_lscale": {
       "__type__": "cc.Vec3",
-      "x": 1,
-      "y": 1,
+      "x": 0.9770992366412213,
+      "y": 0.9770992366412213,
       "z": 1
     },
     "_mobility": 0,
@@ -2426,7 +2426,7 @@
     "_lpos": {
       "__type__": "cc.Vec3",
       "x": 0,
-      "y": -465.805,
+      "y": -484.872,
       "z": 0
     },
     "_lrot": {
@@ -3952,7 +3952,7 @@
     "_lpos": {
       "__type__": "cc.Vec3",
       "x": 0,
-      "y": 49,
+      "y": 16.835,
       "z": 0
     },
     "_lrot": {
@@ -4126,7 +4126,7 @@
     "_left": 0,
     "_right": 0,
     "_top": 0,
-    "_bottom": 0,
+    "_bottom": -32.165000000000006,
     "_horizontalCenter": 0,
     "_verticalCenter": 0,
     "_isAbsLeft": true,
@@ -6367,19 +6367,6 @@
     "_id": "bblX4VDx9J6J1zPUzJwUJp"
   },
   {
-    "__type__": "5f091StlyZCR7fwiAyuiu3Y",
-    "_name": "",
-    "_objFlags": 0,
-    "__editorExtras__": {},
-    "node": {
-      "__id__": 9
-    },
-    "_enabled": true,
-    "__prefab": null,
-    "_policy": 2,
-    "_id": "91HKj+R4ZFh4pws0w2Mrx0"
-  },
-  {
     "__type__": "cc.Widget",
     "_name": "",
     "_objFlags": 0,
@@ -6410,6 +6397,18 @@
     "_id": "94OVqa3HNBTKXJh0rwOXJy"
   },
   {
+    "__type__": "481f3w9gGZOIqa9NorA5ATc",
+    "_name": "",
+    "_objFlags": 0,
+    "__editorExtras__": {},
+    "node": {
+      "__id__": 9
+    },
+    "_enabled": true,
+    "__prefab": null,
+    "_id": "b3MlSAhuBK25YmElyCIAcC"
+  },
+  {
     "__type__": "cc.UITransform",
     "_name": "",
     "_objFlags": 0,
@@ -6421,7 +6420,7 @@
     "__prefab": null,
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 786,
+      "width": 768,
       "height": 1398
     },
     "_anchorPoint": {
