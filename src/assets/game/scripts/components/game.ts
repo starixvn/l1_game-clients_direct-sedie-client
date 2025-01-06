@@ -1,15 +1,15 @@
-import { WinningResult } from "db://shared-components/shared/common-components/winning-result/scripts/winning-result";
 import "./../../../resources/i18n";
 
 import gc from "@sg/game-client-base";
-import { _decorator, Node } from "cc";
-import { startGame } from "db://shared-components/shared/scripts/startup";
-import Observer from "observer";
-
+import { _decorator, Node, Sprite, SpriteFrame, sys } from "cc";
 import { AudioContainer } from "db://shared-components/game/audios/scripts/component/audio-container";
 import { ChipFlying } from "db://shared-components/game/chip-flying/scripts/components/chip-flying";
 import GameComponent from "db://shared-components/game/scripts/components/game-component";
+import { WinningResult } from "db://shared-components/shared/common-components/winning-result/scripts/winning-result";
+import { startGame } from "db://shared-components/shared/scripts/startup";
 import { FunctionUtils, isIOS } from "db://shared-components/shared/utils";
+import Observer from "observer";
+
 import { siteConfigs } from "../../../scripts/site-configs";
 import { containerOptions, settings } from "../game-settings";
 import { IResult, Plate } from "./plate";
@@ -37,6 +37,12 @@ export default class Game extends GameComponent {
     @property(Node)
     nodeWinning: Node = null;
 
+    @property(Sprite)
+    spriteTable: Sprite = null;
+
+    @property(SpriteFrame)
+    spriteTableMobile: SpriteFrame = null;
+
     compPlate: Plate = null;
     protected enableFixHandleFinish = true;
     private audioContainer: AudioContainer = null;
@@ -54,6 +60,10 @@ export default class Game extends GameComponent {
         setTimeout(() => {
             document.getElementById("GameDiv").style.opacity = "1";
         }, 100);
+
+        if (sys.isMobile) {
+            this.spriteTable.spriteFrame = this.spriteTableMobile;
+        }
     }
 
     async showResult(
