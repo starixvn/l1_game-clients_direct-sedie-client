@@ -56,7 +56,6 @@ export default class Game extends GameComponent {
         this.winningResult = this.nodeWinning.getComponent(WinningResult);
         super.onLoad();
 
-        localStorage.setItem("loading", "1");
         setTimeout(() => {
             document.getElementById("GameDiv").style.opacity = "1";
         }, 100);
