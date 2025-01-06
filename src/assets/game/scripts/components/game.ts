@@ -1,7 +1,7 @@
 import "./../../../resources/i18n";
 
 import gc from "@sg/game-client-base";
-import { _decorator, Node, Sprite, SpriteFrame, sys } from "cc";
+import { _decorator, Node } from "cc";
 import { AudioContainer } from "db://shared-components/game/audios/scripts/component/audio-container";
 import { ChipFlying } from "db://shared-components/game/chip-flying/scripts/components/chip-flying";
 import GameComponent from "db://shared-components/game/scripts/components/game-component";
@@ -37,12 +37,6 @@ export default class Game extends GameComponent {
     @property(Node)
     nodeWinning: Node = null;
 
-    @property(Sprite)
-    spriteTable: Sprite = null;
-
-    @property(SpriteFrame)
-    spriteTableMobile: SpriteFrame = null;
-
     compPlate: Plate = null;
     protected enableFixHandleFinish = true;
     private audioContainer: AudioContainer = null;
@@ -59,10 +53,6 @@ export default class Game extends GameComponent {
         setTimeout(() => {
             document.getElementById("GameDiv").style.opacity = "1";
         }, 100);
-
-        if (sys.isMobile) {
-            this.spriteTable.spriteFrame = this.spriteTableMobile;
-        }
     }
 
     async showResult(
