@@ -1,0 +1,11 @@
+#splash.splash-container {
+    background: url(./game_background.webp) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#splash.splash-container.bg_no_translate {
+    background: url(./game_background.webp) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
