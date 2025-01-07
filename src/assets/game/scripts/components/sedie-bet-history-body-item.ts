@@ -36,8 +36,6 @@ export class SeDieBetHistoryBodyItem extends BetHistoryNewBodyItem {
             this.lblHour && (this.lblHour.string = hour);
         }
 
-        this.lblWin && (this.lblWin.color = betwin >= 0 ? new Color().fromHEX("F1E344") : new Color().fromHEX("EB3D26"));
-
         if (settlementResult) {
             Object.keys(settlementResult).forEach((choice) => {
                 const node = instantiate(betsPrefab);
