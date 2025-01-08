@@ -23,10 +23,9 @@ export class SeDieMD5 extends MD5Component {
         let result = "";
         if (!!data.extraInfos) {
             const totalRed = Object.values(data.extraInfos).filter((value) => value === true).length;
-            console.log("totalRed", totalRed);
             const chipResult = this.generateChips(totalRed);
             const suffix = data.rawValue.split("_");
-            const suffixFormatLength = suffix[1].length > this.lengthOfMd5 ? suffix[1].slice(0, this.lengthOfMd5) + "..." : suffix[1];
+            const suffixFormatLength = suffix[1]?.length > this.lengthOfMd5 ? suffix[1]?.slice(0, this.lengthOfMd5) + "..." : suffix[1];
             result = `{${chipResult}}_${suffixFormatLength}`;
         }
         if (!!data.hashValue) {
