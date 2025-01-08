@@ -23,6 +23,7 @@ export class SeDieMD5 extends MD5Component {
         let result = "";
         if (!!data.extraInfos) {
             const totalRed = Object.values(data.extraInfos).filter((value) => value === true).length;
+            console.log("totalRed", totalRed);
             const chipResult = this.generateChips(totalRed);
             const suffix = data.rawValue.split("_");
             const suffixFormatLength = suffix[1].length > this.lengthOfMd5 ? suffix[1].slice(0, this.lengthOfMd5) + "..." : suffix[1];
@@ -39,10 +40,10 @@ export class SeDieMD5 extends MD5Component {
             0: `${this.CHIP_EVEN} ${this.CHIP_EVEN} ${this.CHIP_EVEN} ${this.CHIP_EVEN}`,
             1: `${this.CHIP_ODD} ${this.CHIP_EVEN} ${this.CHIP_EVEN} ${this.CHIP_EVEN}`,
             2: `${this.CHIP_ODD} ${this.CHIP_ODD} ${this.CHIP_EVEN} ${this.CHIP_EVEN}`,
-            3: `${this.CHIP_ODD} ${this.CHIP_ODD} ${this.CHIP_ODD} ${this.CHIP_ODD}`,
+            3: `${this.CHIP_ODD} ${this.CHIP_ODD} ${this.CHIP_ODD} ${this.CHIP_EVEN}`,
+            4: `${this.CHIP_ODD} ${this.CHIP_ODD} ${this.CHIP_ODD} ${this.CHIP_ODD}`,
         };
-
-        return chips.hasOwnProperty(totalRed) ? chips[totalRed] : "";
+        return totalRed >= 0 ? chips[totalRed] : "";
     }
 
     protected setDataTip(data: gc.GameServiceMessage.ResultHash) {
