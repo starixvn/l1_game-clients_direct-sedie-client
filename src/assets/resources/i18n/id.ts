@@ -26,6 +26,7 @@ export const languages = {
         "details": "Details",
         "enter_your_name": "Masukkan nama panggilan Anda.",
         "even_win": "GENAP MENANG",
+        "from": "dari",
         "game_category_ph_1": "Semua Permainan",
         "game_category_ph_2": "Spesial Pinoy",
         "game_category_ph_3": "Permainan Slot",
@@ -41,6 +42,7 @@ export const languages = {
         "invalid_position": "Posisi Tidak Valid",
         "join_game": "Gabung\nPermainan",
         "join_next_round": "Anda akan bergabung dalam permainan di babak berikutnya.",
+        "maintenance_time": "WAKTU PEMELIHARAAN",
         "max_stake_hand": "Total taruhan maksimum di Tangan adalah %{maxBet}",
         "md5_copy": "SALIN",
         "md5_key": "KUNCI MD5",
@@ -173,7 +175,9 @@ export const languages = {
         "powered_by_vgaming": "Dipersembahkan oleh Vgaming",
         "promotion": "Promosi",
         "promotion_terms_and_conditions": "Syarat dan Ketentuan",
+        "reconnect": "Hubungkan kembali",
         "result": "Hasil",
+        "rotateDevice": "Silakan putar perangkat Anda.",
         "round": "Babak",
         "searching_for_players": "Mencari pemain...",
         "sha256": "SHA-256",
@@ -184,6 +188,7 @@ export const languages = {
         "submit": "KIRIMKAN",
         "terms_and_conditions_content": "- Semua pemain baru dan yang sudah ada berhak untuk mengikuti promosi dan mengambil kesempatan untuk memenangkan hadiah yang lebih besar. \n- Jumlah kemenangan dibayarkan sesuai dengan aturan promosi dan pembayaran. \n- Promosi berlaku untuk periode tertentu yang diatur oleh Perusahaan. Saat promosi kedaluwarsa, peluang taruhan akan diatur kembali ke nilai sebelumnya.\n- Perusahaan berhak mengubah syarat masuk yang berlaku untuk promosi ini atau mengubah, menghentikan, menangguhkan, atau menjadwal ulang promosi ini kapan saja.\n- Setiap perselisihan yang timbul dari atau sehubungan dengan promosi ini akan diputuskan oleh Perusahaan.",
         "time": "Waktu",
+        "to": "ke",
         "total": "Total",
         "total_stake": "Total Taruhan",
         "total_win": "Total menang",
@@ -199,12 +204,12 @@ export const languages = {
         "bet_option_red4": "4 Merah",
         "bet_option_white3": "1 Merah",
         "bet_option_white4": "4 Putih",
-        "even_win": "EVEN WINS",
+        "even_win": "GENAP MENANG",
         "game_icon_name": "SE DIE",
         "game_name": "Se Die",
         "glossary_even": "Genap",
         "glossary_odd": "Ganjil",
-        "odd_win": "ODD WINS"
+        "odd_win": "GANJIL MENANG"
     }
 };
 
