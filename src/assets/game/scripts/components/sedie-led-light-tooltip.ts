@@ -18,7 +18,7 @@ export class SeDieLedLightToolTip extends LedLightTooltip {
     @property(Label)
     lblEven: Label = null;
 
-    private readonly dotsTotal = 3;
+    private readonly dotsTotal = 4;
 
     public setTooltipInfo(ledLightInfo: gc.RoundHistories.RoundHistory) {
         const { roundId, settlementResult, result } = ledLightInfo;
