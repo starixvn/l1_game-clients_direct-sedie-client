@@ -49,10 +49,6 @@ export default class Game extends GameComponent {
         this.compPlate = this.nodePlate.getComponent(Plate);
         this.winningResult = this.nodeWinning.getComponent(WinningResult);
         super.onLoad();
-
-        setTimeout(() => {
-            document.getElementById("GameDiv").style.opacity = "1";
-        }, 100);
     }
 
     async showResult(
