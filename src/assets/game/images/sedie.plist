@@ -45,7 +45,7 @@
                 <key>spriteSourceSize</key>
                 <string>{198,150}</string>
                 <key>textureRect</key>
-                <string>{{199,335},{194,146}}</string>
+                <string>{{276,335},{194,146}}</string>
                 <key>textureRotated</key>
                 <false/>
             </dict>
@@ -60,7 +60,7 @@
                 <key>spriteSourceSize</key>
                 <string>{17,17}</string>
                 <key>textureRect</key>
-                <string>{{144,483},{17,17}}</string>
+                <string>{{3,483},{17,17}}</string>
                 <key>textureRotated</key>
                 <false/>
             </dict>
@@ -161,13 +161,13 @@
                 <key>spriteOffset</key>
                 <string>{0,0}</string>
                 <key>spriteSize</key>
-                <string>{23,139}</string>
+                <string>{29,175}</string>
                 <key>spriteSourceSize</key>
-                <string>{23,139}</string>
+                <string>{29,175}</string>
                 <key>textureRect</key>
-                <string>{{3,483},{23,139}}</string>
+                <string>{{245,259},{29,175}}</string>
                 <key>textureRotated</key>
-                <true/>
+                <false/>
             </dict>
             <key>light.png</key>
             <dict>
@@ -273,7 +273,7 @@
             <key>size</key>
             <string>{512,512}</string>
             <key>smartupdate</key>
-            <string>$TexturePacker:SmartUpdate:6d524bd045c1d802007f006649a6c460:6fe44c5fb395a3c7bd4ac25948313d80:5b92b359debe7f583d69ddcd61b3ab07$</string>
+            <string>$TexturePacker:SmartUpdate:b40adeb9d4c88a99a94b65003d185400:c1a77f6e6782549f01e6c9e795ac818b:5b92b359debe7f583d69ddcd61b3ab07$</string>
             <key>textureFileName</key>
             <string>sedie.webp</string>
         </dict>
