@@ -546,12 +546,12 @@
     "playOnLoad": true,
     "_clips": [
       {
-        "__uuid__": "cd40932a-ef72-4c86-a090-62444ce6abe3",
+        "__uuid__": "a5bf281f-6bc8-467c-a2e1-0b2250bd8bd3",
         "__expectedType__": "cc.AnimationClip"
       }
     ],
     "_defaultClip": {
-      "__uuid__": "cd40932a-ef72-4c86-a090-62444ce6abe3",
+      "__uuid__": "a5bf281f-6bc8-467c-a2e1-0b2250bd8bd3",
       "__expectedType__": "cc.AnimationClip"
     },
     "_id": ""
@@ -569,6 +569,7 @@
       "__id__": 0
     },
     "fileId": "c9pZ0trIpNBY1S3VBiMFw+",
+    "instance": null,
     "targetOverrides": null
   }
 ]
