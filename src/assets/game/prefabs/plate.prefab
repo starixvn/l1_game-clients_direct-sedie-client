@@ -46,7 +46,7 @@
     "_lpos": {
       "__type__": "cc.Vec3",
       "x": 0,
-      "y": 55.885,
+      "y": 114.96499999999992,
       "z": 0
     },
     "_lrot": {
@@ -58,8 +58,8 @@
     },
     "_lscale": {
       "__type__": "cc.Vec3",
-      "x": 1.25,
-      "y": 1.25,
+      "x": 0.73,
+      "y": 0.73,
       "z": 1
     },
     "_mobility": 0,
@@ -142,8 +142,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 178,
-      "height": 172
+      "width": 184,
+      "height": 178
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -255,7 +255,6 @@
     "_timeScale": 1,
     "_preCacheMode": 0,
     "_cacheMode": 0,
-    "_defaultCacheMode": 0,
     "_sockets": [],
     "_useTint": false,
     "_debugMesh": false,
@@ -4693,7 +4692,6 @@
       "__id__": 0
     },
     "fileId": "6fp4jnBrBD1Lcefecs8Lkd",
-    "instance": null,
     "targetOverrides": [],
     "nestedPrefabInstanceRoots": [
       {
