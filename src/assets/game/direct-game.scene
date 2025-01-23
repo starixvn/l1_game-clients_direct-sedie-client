@@ -11,7 +11,7 @@
   },
   {
     "__type__": "cc.Scene",
-    "_name": "game",
+    "_name": "direct-game",
     "_objFlags": 0,
     "__editorExtras__": {},
     "_parent": null,
@@ -2200,7 +2200,7 @@
     ],
     "value": {
       "__type__": "cc.Size",
-      "width": 206.0625,
+      "width": 269.8828125,
       "height": 70.56
     }
   },
