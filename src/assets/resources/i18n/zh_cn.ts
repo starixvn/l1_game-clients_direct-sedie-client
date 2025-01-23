@@ -40,6 +40,7 @@ export const languages = {
         "invalid_bet": "无效投注",
         "invalid_deal_hands": "这数量手牌无效",
         "invalid_position": "无效位置",
+        "invalid_stake_level": "无效的赌注级别",
         "join_game": "加入游戏",
         "join_next_round": "您将在下一轮加入游戏。",
         "maintenance_time": "维护时间",
@@ -204,12 +205,12 @@ export const languages = {
         "bet_option_red4": "4 红",
         "bet_option_white3": "1 红",
         "bet_option_white4": "4 白",
-        "even_win": "EVEN WINS",
+        "even_win": "双赢",
         "game_icon_name": "色碟",
         "game_name": "色碟",
         "glossary_even": "双",
         "glossary_odd": "单",
-        "odd_win": "ODD WINS"
+        "odd_win": "单赢"
     }
 };
 
