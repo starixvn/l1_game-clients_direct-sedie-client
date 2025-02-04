@@ -1221,7 +1221,7 @@
     "_lpos": {
       "__type__": "cc.Vec3",
       "x": -376.77,
-      "y": 243.2249999999999,
+      "y": 192.923,
       "z": 0
     },
     "_lrot": {
@@ -1360,7 +1360,7 @@
     "_target": null,
     "_left": 0,
     "_right": 0,
-    "_top": 131.7750000000001,
+    "_top": 182.077,
     "_bottom": 0,
     "_horizontalCenter": 0,
     "_verticalCenter": 0,
@@ -5123,10 +5123,6 @@
     },
     "resultPrefab": {
       "__uuid__": "b2d7df52-b02f-47c3-96a2-8e47f7eb2f68",
-      "__expectedType__": "cc.Prefab"
-    },
-    "betPrefab": {
-      "__uuid__": "1222ee09-104d-4a40-9b6e-ba37efc1beed",
       "__expectedType__": "cc.Prefab"
     },
     "_id": "damXmZc6BL/6whG5BsjP4x"
