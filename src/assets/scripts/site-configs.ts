@@ -27,7 +27,6 @@ const defaultConfig: gc.Configs.SiteConfigs = {
     mainObserverNamespace: "SeDie",
     tolgeeUrl: "",
     storagePrefixKey: "portrait_sedie",
-    backgroundNoTranslate: true,
 };
 
 let configDev = {
