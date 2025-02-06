@@ -91,7 +91,7 @@
     "fileId": "19Wmv0ZWJOabt0CwbKg6w/"
   },
   {
-    "__type__": "f89ebqp2a1BZJ9c/Ra4WYo3",
+    "__type__": "9abafdfGYhIg7nfVsIElBKk",
     "_name": "",
     "_objFlags": 0,
     "__editorExtras__": {},
@@ -122,7 +122,7 @@
   },
   {
     "__type__": "cc.CompPrefabInfo",
-    "fileId": "687BwAMmxHrq8DH4uVl3Ux"
+    "fileId": "efzFkCbINBcpOdmy5v5GuH"
   },
   {
     "__type__": "cc.Widget",
@@ -169,6 +169,7 @@
       "__id__": 0
     },
     "fileId": "b5J49IqShDE4gypmBSpkWX",
+    "instance": null,
     "targetOverrides": null
   }
 ]
