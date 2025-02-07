@@ -101,11 +101,11 @@
                 <key>spriteOffset</key>
                 <string>{0,0}</string>
                 <key>spriteSize</key>
-                <string>{36,37}</string>
+                <string>{40,40}</string>
                 <key>spriteSourceSize</key>
-                <string>{36,37}</string>
+                <string>{40,40}</string>
                 <key>textureRect</key>
-                <string>{{178,72},{36,37}}</string>
+                <string>{{178,72},{40,40}}</string>
                 <key>textureRotated</key>
                 <false/>
             </dict>
@@ -131,11 +131,11 @@
                 <key>spriteOffset</key>
                 <string>{0,0}</string>
                 <key>spriteSize</key>
-                <string>{36,37}</string>
+                <string>{40,40}</string>
                 <key>spriteSourceSize</key>
-                <string>{36,37}</string>
+                <string>{40,40}</string>
                 <key>textureRect</key>
-                <string>{{179,111},{36,37}}</string>
+                <string>{{179,114},{40,40}}</string>
                 <key>textureRotated</key>
                 <false/>
             </dict>
@@ -288,7 +288,7 @@
             <key>size</key>
             <string>{512,512}</string>
             <key>smartupdate</key>
-            <string>$TexturePacker:SmartUpdate:6e6d6ea40d20c5a70cb752e2994714b9:b7ee598f337677e6441658d6fbed5e3f:5b92b359debe7f583d69ddcd61b3ab07$</string>
+            <string>$TexturePacker:SmartUpdate:d70a4b665236b7c436954b2e8c6638ba:62d4906e5cdfac4411db91ca76b6a340:5b92b359debe7f583d69ddcd61b3ab07$</string>
             <key>textureFileName</key>
             <string>sedie.webp</string>
         </dict>
