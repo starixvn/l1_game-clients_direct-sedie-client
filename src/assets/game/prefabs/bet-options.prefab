@@ -7346,7 +7346,7 @@
     },
     "choice": null,
     "lblBetPercentage": null,
-    "enableBoostedOdds": true,
+    "enableBoostedOdds": false,
     "highlightOdds": null,
     "boostedOddsColor": {
       "__type__": "cc.Color",
