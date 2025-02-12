@@ -6,7 +6,6 @@ import SeDieBetHistoryBetOption from "./sedie-bet-history-bet-option";
 const { ccclass, property } = _decorator;
 
 const { DateTimeUtils, FormatUtils } = gc;
-
 @ccclass
 export class SeDieBetHistoryBodyItem extends BetHistoryNewBodyItem {
     @property({ type: Label, override: true, visible: false })
@@ -41,7 +40,8 @@ export class SeDieBetHistoryBodyItem extends BetHistoryNewBodyItem {
                 let stake = data.betHistoryLog[choice];
                 if (+stake > 0) {
                     stake = freeBet ? 0 : stake;
-                    option.handleBetOptionItem(choice, FormatUtils.numberWithCommas(odds[choice], 2), FormatUtils.numberWithCommas(stake));
+                    const odd = gc.FormatUtils.formatOdds(+odds[choice], data?.fractionalOddsFormat);
+                    option.handleBetOptionItem(choice, odd, FormatUtils.numberWithCommas(stake));
                     option.highlightForWinning(settlementResult[choice]);
                     this.betOption.addChild(node);
                 }
