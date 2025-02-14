@@ -96,7 +96,7 @@
     },
     "_lpos": {
       "__type__": "cc.Vec3",
-      "x": -123.9,
+      "x": -123,
       "y": 0,
       "z": 0
     },
@@ -152,7 +152,7 @@
     },
     "_lpos": {
       "__type__": "cc.Vec3",
-      "x": 23.8232421875,
+      "x": 27.46240234375,
       "y": 0,
       "z": 0
     },
@@ -193,8 +193,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 47.646484375,
-      "height": 30.240000000000002
+      "width": 54.9248046875,
+      "height": 32.76
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -232,14 +232,14 @@
     "_string": "Even",
     "_horizontalAlign": 2,
     "_verticalAlign": 1,
-    "_actualFontSize": 20,
-    "_fontSize": 20,
+    "_actualFontSize": 22,
+    "_fontSize": 22,
     "_fontFamily": "Arial",
-    "_lineHeight": 24,
+    "_lineHeight": 26,
     "_overflow": 0,
-    "_enableWrapText": true,
+    "_enableWrapText": false,
     "_font": {
-      "__uuid__": "0b9efa3d-c517-4301-af5b-ac67552528db",
+      "__uuid__": "41a12541-a4db-4259-b803-4c477054c858",
       "__expectedType__": "cc.TTFFont"
     },
     "_isSystemFontUsed": false,
@@ -297,7 +297,7 @@
     "fileId": "aaTW6GEONFe5ndOsuJ1KbA"
   },
   {
-    "__type__": "236f7x5T8NDy6zK2pEcSSAO",
+    "__type__": "6c12eWZ3I5D5rOwWyjWmS36",
     "_name": "",
     "_objFlags": 0,
     "__editorExtras__": {},
@@ -314,7 +314,7 @@
   },
   {
     "__type__": "cc.CompPrefabInfo",
-    "fileId": "18otTk6EpFzb40MzRVZIWQ"
+    "fileId": "0abWEtDR9KdpOjQer1ICLz"
   },
   {
     "__type__": "cc.PrefabInfo",
@@ -343,7 +343,7 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 47.646484375,
+      "width": 54.9248046875,
       "height": 100
     },
     "_anchorPoint": {
@@ -409,7 +409,7 @@
     },
     "_alignFlags": 8,
     "_target": null,
-    "_left": -0.9000000000000057,
+    "_left": 0,
     "_right": 0,
     "_top": 0,
     "_bottom": 0,
@@ -556,14 +556,14 @@
     "_string": "27,000",
     "_horizontalAlign": 2,
     "_verticalAlign": 1,
-    "_actualFontSize": 20,
-    "_fontSize": 20,
+    "_actualFontSize": 22,
+    "_fontSize": 22,
     "_fontFamily": "Arial",
     "_lineHeight": 22,
     "_overflow": 1,
-    "_enableWrapText": true,
+    "_enableWrapText": false,
     "_font": {
-      "__uuid__": "a8537839-a202-488b-8bb5-fdc265f2048a",
+      "__uuid__": "52227efe-f368-4706-a10e-03f3c6922e0c",
       "__expectedType__": "cc.BitmapFont"
     },
     "_isSystemFontUsed": false,
