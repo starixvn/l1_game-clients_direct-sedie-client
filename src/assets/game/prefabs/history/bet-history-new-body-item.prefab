@@ -283,7 +283,7 @@
     },
     "_lpos": {
       "__type__": "cc.Vec3",
-      "x": 131.86440677966107,
+      "x": 132.8,
       "y": 0,
       "z": 0
     },
@@ -418,7 +418,7 @@
     },
     "_lpos": {
       "__type__": "cc.Vec3",
-      "x": -359.8447966101695,
+      "x": -359.86,
       "y": 0,
       "z": 0
     },
@@ -567,7 +567,7 @@
     "_isBold": false,
     "_isUnderline": false,
     "_underlineHeight": 0,
-    "_cacheMode": 2,
+    "_cacheMode": 0,
     "_enableOutline": false,
     "_outlineColor": {
       "__type__": "cc.Color",
@@ -750,7 +750,7 @@
     "_isBold": false,
     "_isUnderline": false,
     "_underlineHeight": 0,
-    "_cacheMode": 2,
+    "_cacheMode": 0,
     "_enableOutline": false,
     "_outlineColor": {
       "__type__": "cc.Color",
@@ -912,7 +912,7 @@
     "_target": {
       "__id__": 1
     },
-    "_left": 0.0050183615819209,
+    "_left": 0.005000000000000002,
     "_right": 0,
     "_top": 0,
     "_bottom": 0,
@@ -977,7 +977,7 @@
     },
     "_lpos": {
       "__type__": "cc.Vec3",
-      "x": -231.417406779661,
+      "x": -229.8,
       "y": 0,
       "z": 0
     },
@@ -1101,7 +1101,7 @@
     "_isBold": false,
     "_isUnderline": false,
     "_underlineHeight": 0,
-    "_cacheMode": 2,
+    "_cacheMode": 0,
     "_enableOutline": false,
     "_outlineColor": {
       "__type__": "cc.Color",
@@ -1272,7 +1272,7 @@
     "_target": {
       "__id__": 1
     },
-    "_left": 0.14804661016949153,
+    "_left": 0.14999999999999997,
     "_right": 0,
     "_top": 0,
     "_bottom": 0,
@@ -1336,7 +1336,7 @@
     },
     "_lpos": {
       "__type__": "cc.Vec3",
-      "x": -112.24896610169492,
+      "x": -107.64,
       "y": 0,
       "z": 0
     },
@@ -1464,7 +1464,7 @@
     "_target": {
       "__id__": 1
     },
-    "_left": 0.364433615819209,
+    "_left": 0.37,
     "_right": 0,
     "_top": 0,
     "_bottom": 0,
@@ -1531,7 +1531,7 @@
     },
     "_lpos": {
       "__type__": "cc.Vec3",
-      "x": 342.8159661016948,
+      "x": 358.7,
       "y": 0,
       "z": 0
     },
@@ -1710,7 +1710,7 @@
     "_target": {
       "__id__": 1
     },
-    "_left": 0.8808163841807909,
+    "_left": 0.9,
     "_right": 0,
     "_top": 0,
     "_bottom": 0,
@@ -2171,7 +2171,7 @@
     "_target": {
       "__id__": 1
     },
-    "_left": 0.5988700564971752,
+    "_left": 0.6,
     "_right": 0,
     "_top": 0,
     "_bottom": 0,
