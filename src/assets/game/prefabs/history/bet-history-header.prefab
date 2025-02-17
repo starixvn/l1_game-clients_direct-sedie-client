@@ -179,8 +179,8 @@
     },
     "_lpos": {
       "__type__": "cc.Vec3",
-      "x": -360.7976366322009,
-      "y": 2.398,
+      "x": -342.1907696629213,
+      "y": 2.3980000000001382,
       "z": 0
     },
     "_lrot": {
@@ -228,7 +228,7 @@
       "b": 0,
       "a": 255
     },
-    "_string": "Time",
+    "_string": "Thời Gian",
     "_horizontalAlign": 0,
     "_verticalAlign": 1,
     "_actualFontSize": 23,
@@ -310,7 +310,7 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 58.9150390625,
+      "width": 114.74169921875,
       "height": 55.44
     },
     "_anchorPoint": {
@@ -400,8 +400,8 @@
     "_target": {
       "__id__": 1
     },
-    "_left": 0.15343129696416405,
-    "_right": 1.024923172887355,
+    "_left": 0.8604518799530472,
+    "_right": 1.686999632762036,
     "_top": 0,
     "_bottom": 0,
     "_horizontalCenter": 0,
@@ -473,7 +473,7 @@
     },
     "_lpos": {
       "__type__": "cc.Vec3",
-      "x": -207.51536283185845,
+      "x": -200.88596067415733,
       "y": 2.3980000000001382,
       "z": 0
     },
@@ -522,7 +522,7 @@
       "b": 0,
       "a": 255
     },
-    "_string": "Round",
+    "_string": "Phiên",
     "_horizontalAlign": 0,
     "_verticalAlign": 1,
     "_actualFontSize": 23,
@@ -604,7 +604,7 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 75.962890625,
+      "width": 66.58544921875,
       "height": 55.44
     },
     "_anchorPoint": {
@@ -694,8 +694,8 @@
     "_target": {
       "__id__": 1
     },
-    "_left": 0.24957924163206452,
-    "_right": 0.7508240793901767,
+    "_left": 0.16797324357630508,
+    "_right": 0.653205032644318,
     "_top": 0,
     "_bottom": 0,
     "_horizontalCenter": 0,
@@ -767,7 +767,7 @@
     },
     "_lpos": {
       "__type__": "cc.Vec3",
-      "x": -86.39532743362835,
+      "x": -81.64173033707874,
       "y": 2.3980000000001382,
       "z": 0
     },
@@ -816,7 +816,7 @@
       "b": 0,
       "a": 255
     },
-    "_string": "Result",
+    "_string": "Kết Quả",
     "_horizontalAlign": 0,
     "_verticalAlign": 1,
     "_actualFontSize": 23,
@@ -898,7 +898,7 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 73.357421875,
+      "width": 92.05615234375,
       "height": 55.44
     },
     "_anchorPoint": {
@@ -988,8 +988,8 @@
     "_target": {
       "__id__": 1
     },
-    "_left": 0.43500862870267937,
-    "_right": 0.6436929944843904,
+    "_left": 0.5234097936767219,
+    "_right": 0.7206120408677333,
     "_top": 0,
     "_bottom": 0,
     "_horizontalCenter": 0,
@@ -1058,8 +1058,8 @@
     },
     "_lpos": {
       "__type__": "cc.Vec3",
-      "x": 55.65334121122601,
-      "y": 2.398,
+      "x": 70.57537078651683,
+      "y": 2.3980000000001382,
       "z": 0
     },
     "_lrot": {
@@ -1107,7 +1107,7 @@
       "b": 0,
       "a": 255
     },
-    "_string": "Bet Choice",
+    "_string": "Đặt",
     "_horizontalAlign": 0,
     "_verticalAlign": 1,
     "_actualFontSize": 23,
@@ -1170,7 +1170,7 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 122.0078125,
+      "width": 40.73291015625,
       "height": 55.44
     },
     "_anchorPoint": {
@@ -1260,8 +1260,8 @@
     "_target": {
       "__id__": 1
     },
-    "_left": 0.47412438588819994,
-    "_right": 0.33969602547461064,
+    "_left": 0.5606387870874298,
+    "_right": 0.39016687697507024,
     "_top": 0,
     "_bottom": 0,
     "_horizontalCenter": 0,
@@ -1333,7 +1333,7 @@
     },
     "_lpos": {
       "__type__": "cc.Vec3",
-      "x": 242.33370753323481,
+      "x": 242.3337075332347,
       "y": 2.398,
       "z": 0
     },
@@ -1382,7 +1382,7 @@
       "b": 0,
       "a": 255
     },
-    "_string": "Stake",
+    "_string": "Cược",
     "_horizontalAlign": 0,
     "_verticalAlign": 1,
     "_actualFontSize": 23,
@@ -1464,7 +1464,7 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 63.86767578125,
+      "width": 60.779296875,
       "height": 55.44
     },
     "_anchorPoint": {
@@ -1554,8 +1554,8 @@
     "_target": {
       "__id__": 1
     },
-    "_left": 0.7996092133885887,
-    "_right": 0.21426209374309405,
+    "_left": 0.7559710858644139,
+    "_right": 0.17062396621891945,
     "_top": 0,
     "_bottom": 0,
     "_horizontalCenter": 0,
@@ -1627,8 +1627,8 @@
     },
     "_lpos": {
       "__type__": "cc.Vec3",
-      "x": 363.1324254062038,
-      "y": 2.398,
+      "x": 358.60191573033705,
+      "y": 2.3980000000001382,
       "z": 0
     },
     "_lrot": {
@@ -1676,7 +1676,7 @@
       "b": 0,
       "a": 255
     },
-    "_string": "Win",
+    "_string": "Thắng",
     "_horizontalAlign": 0,
     "_verticalAlign": 1,
     "_actualFontSize": 23,
@@ -1758,7 +1758,7 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 47.9765625,
+      "width": 72.35791015625,
       "height": 55.44
     },
     "_anchorPoint": {
@@ -1848,8 +1848,8 @@
     "_target": {
       "__id__": 1
     },
-    "_left": 0.9814458678581081,
-    "_right": 0.10431440552428244,
+    "_left": 0.8893997109326234,
+    "_right": 0.023211508685432237,
     "_top": 0,
     "_bottom": 0,
     "_horizontalCenter": 0,
