@@ -10,4 +10,5 @@ window.envConfig = {
     subDirectory: "sit",
     SGConnectSubDomain: "l1sitconnectsite",
     clientSubDomain: "l1uatclient",
+    wsConnectionTimeoutMs: 10000,
 };
