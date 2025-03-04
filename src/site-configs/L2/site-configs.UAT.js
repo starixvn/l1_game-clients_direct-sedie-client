@@ -10,4 +10,5 @@ window.envConfig = {
     subDirectory: "uat",
     SGConnectSubDomain: "l2-connect-uat",
     clientSubDomain: "l2uatclient",
+    wsTimeout: 3000,
 };
