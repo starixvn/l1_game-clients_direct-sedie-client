@@ -1,3 +1,5 @@
 {
-    "game_background": 5
+    "game_background": 5,
+    "game_background_direct": 1,
+    "game_background_portrait": 1
 }
