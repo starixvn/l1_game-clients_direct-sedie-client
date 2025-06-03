@@ -24,9 +24,6 @@ const defaultConfig: gc.Configs.SiteConfigs = {
         proxyPath: "sedie",
         route: "sedie",
     },
-    websocketOptions: {
-        timeout: 3000,
-    },
     mainObserverNamespace: "SeDie",
     tolgeeUrl: "",
     storagePrefixKey: "portrait_sedie",
