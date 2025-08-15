@@ -1,22 +1,30 @@
 {
     "lobbyNames": {
         "en": "SE DIE",
+        "es": "SE DIE",
+        "fil_ph": "TAYA NG DADO",
         "id": "SE DIE",
+        "ja": "ソックディア",
+        "ko": "식보",
+        "pt_br": "Grande e Pequeno",
         "th": "SE DIE",
+        "tr": "Büyük/Küçük",
         "vi": "XÓC ĐĨA",
         "zh_cn": "色碟",
-        "zh_tw": "色碟",
-        "ja": "ソックディア",
-        "es": "SE DIE"
+        "zh_tw": "色碟"
     },
     "gameNames": {
         "en": "Se Die",
+        "es": "Se Die",
+        "fil_ph": "Se Die",
         "id": "Se Die",
+        "ja": "ソックディア",
+        "ko": "다이사이",
+        "pt_br": "Se Die",
         "th": "Se Die",
+        "tr": "Se Die",
         "vi": "Xóc Đĩa",
         "zh_cn": "色碟",
-        "zh_tw": "色碟",
-        "ja": "ソックディア",
-        "es": "Se Die"
+        "zh_tw": "色碟"
     }
 }

@@ -224,7 +224,15 @@ export const languages = {
         "under_maintenance_time": "A partir de %{startTime} hasta %{endTime} (GMT+8)",
         "win": "Ganar",
         "win_loss": "Ganancia/Pérdida",
-        "you_reach_max_win": "Has alcanzado la ganancia máxima."
+        "you_reach_max_win": "Has alcanzado la ganancia máxima.",
+        "invalid_payline": "invalid_payline",
+        "invalid_bonus": "invalid_bonus",
+        "opened_bonus": "opened_bonus",
+        "invalid_jackpot": "invalid_jackpot",
+        "opened_jackpot": "opened_jackpot",
+        "Claim_expired_error_message": "La Bonificación ha expirado. Ya no está disponible. (%{errorCode})",
+        "pf_header_server_seed_sha256_single": "SHA256 de la semilla del servidor",
+        "pf_ header_merge_client_seed_single": "Combinar la semilla del cliente"
     },
     "SeDie": {
         "bet_option_red2": "2 Rojos",

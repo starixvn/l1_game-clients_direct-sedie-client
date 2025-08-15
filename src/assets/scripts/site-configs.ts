@@ -14,7 +14,7 @@ const defaultConfig: gc.Configs.SiteConfigs = {
         localhost: "lumigame.com",
     },
     ssl: true,
-    subDomain: "l2-proxy1",
+    subDomain: "l2-proxy",
     env: "LOCAL",
     subGuideDomain: "l1-guide1",
     SGConnectSubDomain: "connectsite",
@@ -24,7 +24,6 @@ const defaultConfig: gc.Configs.SiteConfigs = {
         proxyPath: "sedie",
         route: "sedie",
     },
-    mainObserverNamespace: "SeDie",
     tolgeeUrl: "",
     storagePrefixKey: "portrait_sedie",
 };
