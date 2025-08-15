@@ -13,7 +13,9 @@ export interface ExtraInfos {
 @ccclass('SeDieMD5')
 export class SeDieMD5 extends MD5Component {
     generateChips(totalRed: number): string {
-        if (totalRed < 0 || totalRed > 4) return '';
+        if (totalRed < 0 || totalRed > 4) {
+            return '';
+        }
 
         const chips = [];
         for (let i = 0; i < 4; i++) {
@@ -47,5 +49,5 @@ export class SeDieMD5 extends MD5Component {
         }
     }
 
-    protected tipForHash: boolean = false;
+    protected tipForHash = false;
 }
