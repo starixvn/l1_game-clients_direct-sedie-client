@@ -14,6 +14,7 @@ jest.mock('@sg/game-client-base', () => ({
 jest.mock('db://shared-components/game/md5/scripts/md5-component', () => {
     const mock = jest.fn().mockImplementation(function () {
         this.lengthOfMd5 = 5;
+        this.maximumStringAllowed = 5;
         this.lblMd5Value = null;
         this.tipString = '';
         this.md5Tip = null;
@@ -64,7 +65,8 @@ describe('SeDieMD5', () => {
             }
         };
 
-        (seDieMD5 as any).lengthOfMd5 = 5;
+        seDieMD5.lengthOfMd5 = 5;
+        seDieMD5.maximumStringAllowed = 5;
     });
 
     describe('generateMD5Result', () => {
@@ -78,7 +80,7 @@ describe('SeDieMD5', () => {
             };
             const data: MD5Type = {
                 extraInfos,
-                rawValue: 'test_123456789',
+                rawValue: '123456789',
                 hashValue: ''
             };
 
@@ -164,4 +166,4 @@ describe('SeDieMD5', () => {
             expect((seDieMD5 as any).md5Tip.show).not.toHaveBeenCalled();
         });
     });
-}); 
+});
