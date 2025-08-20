@@ -29,6 +29,21 @@
         "path": "winning/odd_wins_zh_tw",
         "isLazyLoad": true
     },
+    "odd_wins_ko": {
+        "bundle": "resources",
+        "path": "winning/odd_wins_ko",
+        "isLazyLoad": true
+    },
+    "odd_wins_tr": {
+        "bundle": "resources",
+        "path": "winning/odd_wins_tr",
+        "isLazyLoad": true
+    },
+    "odd_wins_fil_ph": {
+        "bundle": "resources",
+        "path": "winning/odd_wins_fil_ph",
+        "isLazyLoad": true
+    },
     "odd_wins_vi": {
         "bundle": "resources",
         "path": "winning/odd_wins_vi",
@@ -62,6 +77,21 @@
     "even_wins_vi": {
         "bundle": "resources",
         "path": "winning/even_wins_vi",
+        "isLazyLoad": true
+    },
+    "even_wins_ko": {
+        "bundle": "resources",
+        "path": "winning/even_wins_ko",
+        "isLazyLoad": true
+    },
+    "even_wins_tr": {
+        "bundle": "resources",
+        "path": "winning/even_wins_tr",
+        "isLazyLoad": true
+    },
+    "even_wins_fil_ph": {
+        "bundle": "resources",
+        "path": "winning/even_wins_fil_ph",
         "isLazyLoad": true
     }
 }
