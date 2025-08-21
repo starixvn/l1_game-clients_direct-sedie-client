@@ -230,9 +230,10 @@ export const languages = {
         "all": "全部",
         "sabaplay_tagline": "趣遊無限",
         "message_loading": "載入中",
-        "Claim_expired_error_message": "獎金已過期，不再有效。 (%{errorCode})",
         "pf_header_server_seed_sha256_single": "服務器種子 SHA256",
-        "pf_ header_merge_client_seed_single": "合併客戶種子"
+        "pf_ header_merge_client_seed_single": "合併客戶種子",
+        "message_error_claim_expired": "獎金已過期，不再有效。 (%{errorCode})",
+        "player": "閒家"
     },
     "SeDie": {
         "bet_option_red2": "2 紅",
@@ -245,7 +246,11 @@ export const languages = {
         "game_name": "色碟",
         "glossary_even": "雙",
         "glossary_odd": "單",
-        "odd_win": "單贏"
+        "odd_win": "單贏",
+        "pf_verifier_tool_para_24": "將 SHA512 中的每組 2 個字元轉換為十進制",
+        "glossary_white": "白",
+        "glossary_red": "紅",
+        "pf_verifier_tool_button": null
     }
 };
 

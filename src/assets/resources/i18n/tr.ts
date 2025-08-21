@@ -181,8 +181,8 @@ export const languages = {
         "sha256": "SHA-256",
         "multiplier_time": "KAZANÇ ARTIŞI!",
         "betChoice2": "Bahis Seçimi",
-        "odd_win": "Tek Sayı Kazançları",
-        "even_win": "Çift Sayı Kazançları",
+        "odd_win": "Tek Kazanır",
+        "even_win": "Çift Kazanır",
         "bet_choice_away": "Away",
         "bet_choice_even": "Çift",
         "bet_choice_home": "Home",
@@ -198,8 +198,8 @@ export const languages = {
         "invalid_stake_level": "Geçersiz Bahis Seviyesi",
         "betChoice_shorten": "Bahis Seçimi",
         "total_stake_shorten": "Toplam Bahis",
-        "text_big_wins": "Big Wins!",
-        "text_small_win": "Küçük Kazançlar!",
+        "text_big_wins": "Büyük Kazanır!",
+        "text_small_win": "Küçük Kazanır!",
         "message_balanced_betting_pool": "Dengeli Bahis Havuzu",
         "refund": "Geri Ödeme",
         "button_confirm": "Onayla",
@@ -230,12 +230,13 @@ export const languages = {
         "message_loading": "Yükleniyor",
         "message_place_bets": "Bahislerinizi Yapın",
         "copy_successfully_md5": "Kopyalama başarılı!",
-        "Claim_expired_error_message": "Bonussun süresi doldu. Artık mevcut değil. (%{errorCode})",
         "pf_header_server_seed_sha256_single": "Sunucu Tohumu SHA256",
-        "pf_ header_merge_client_seed_single": "Müşteri Tohumunu Birleştir"
+        "pf_ header_merge_client_seed_single": "Müşteri Tohumunu Birleştir",
+        "message_error_claim_expired": "Bonussun süresi doldu. Artık mevcut değil. (%{errorCode})",
+        "player": "Oyuncu"
     },
     "SeDie": {
-        "game_icon_name": "Büyük/Küçük",
+        "game_icon_name": "SE DIE",
         "bet_option_red2": "2 Kırmızı",
         "bet_option_red3": "3 Kırmızı",
         "bet_option_red4": "4 Kırmızı",
@@ -244,8 +245,12 @@ export const languages = {
         "game_name": "Se Die",
         "glossary_even": "Çift",
         "glossary_odd": "Tek",
-        "odd_win": "Tek Sayı Kazançları",
-        "even_win": "Çift Sayı Kazançları"
+        "odd_win": "Tek Kazanır",
+        "even_win": "Çift Kazanır",
+        "pf_verifier_tool_para_24": "SHA512'deki her 2 karakter grubunu ondalığa dönüştür",
+        "glossary_white": "Beyaz",
+        "glossary_red": "Kırmızı",
+        "pf_verifier_tool_button": "Button {value}"
     }
 };
 

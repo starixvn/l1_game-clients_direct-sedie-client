@@ -33,7 +33,7 @@ export const languages = {
         "create_nick_name": "ニックネームを作成",
         "details": "詳細",
         "enter_your_name": "ニックネームを入力してください。",
-        "even_win": "偶数勝利",
+        "even_win": "偶数勝ち\n",
         "from": "から",
         "game_category_new_releases": "新作",
         "game_category_ph_1": "全ゲーム",
@@ -151,7 +151,7 @@ export const languages = {
         "not_enough_money": "口座残高が不足しています。",
         "notice": "お知らせ",
         "odds": "オッズ",
-        "odd_win": "奇数勝利",
+        "odd_win": "奇数勝ち",
         "ok": "OK",
         "ok_and_don't_show_again": "OK、次回から表示しない。",
         "one_choice_allowed": "賭けられるのは一つの選択肢だけです。",
@@ -212,8 +212,8 @@ export const languages = {
         "stake": "ベット",
         "submit": "送信",
         "terms_and_conditions_content": "– 全ての新規および既存のプレイヤーは、プロモーションに参加し、より大きな賞金を獲得するチャンスがあります。\n– 当選金額は、プロモーションルールおよびペイアウトに従って支払われます。\n– プロモーションは、当社が定める一定期間適用されます。プロモーション期間が終了すると、賭けのオッズは以前の値に戻ります。\n– 当社は、このプロモーションに適用されるエントリー条件の変更、またはプロモーションの修正、終了、中断、または再スケジュールを行う権利を留保します。\n– このプロモーションから生じる、または関連する紛争は、当社によって決定されるものとします。",
-        "text_big_wins": "Big Wins!",
-        "text_small_win": "小当たり！",
+        "text_big_wins": "大が勝ち!",
+        "text_small_win": "小が勝ち！",
         "time": "時間",
         "to": "へ",
         "total": "合計",
@@ -230,9 +230,10 @@ export const languages = {
         "opened_bonus": "opened_bonus",
         "invalid_jackpot": "invalid_jackpot",
         "opened_jackpot": "opened_jackpot",
-        "Claim_expired_error_message": "ボーナスは期限切れです。利用できなくなりました。(%{errorCode})",
         "pf_header_server_seed_sha256_single": "サーバーシード SHA256",
-        "pf_ header_merge_client_seed_single": "クライアントシードを統合"
+        "pf_ header_merge_client_seed_single": "クライアントシードを統合",
+        "message_error_claim_expired": "ボーナスは期限切れです。利用できなくなりました。(%{errorCode})",
+        "player": "プレイヤー"
     },
     "SeDie": {
         "bet_option_red2": "赤2",
@@ -240,12 +241,16 @@ export const languages = {
         "bet_option_red4": "赤4",
         "bet_option_white3": "赤1",
         "bet_option_white4": "白4",
-        "even_win": "偶数の勝ち",
+        "even_win": "偶数勝ち\n",
         "game_icon_name": "ソックディア",
         "game_name": "ソックディア",
         "glossary_even": "偶数",
         "glossary_odd": "奇数",
-        "odd_win": "奇数の勝ち"
+        "odd_win": "奇数勝ち",
+        "pf_verifier_tool_para_24": "SHA512を2文字ずつ区切り、10進数に変換",
+        "glossary_white": "白",
+        "glossary_red": "赤",
+        "pf_verifier_tool_button": "Button {value}"
     }
 };
 

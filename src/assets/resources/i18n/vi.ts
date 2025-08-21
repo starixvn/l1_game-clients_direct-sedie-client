@@ -230,9 +230,10 @@ export const languages = {
         "all": null,
         "sabaplay_tagline": "Nâng Tầm Cuộc Chơi",
         "message_loading": "Loading",
-        "Claim_expired_error_message": "Thời gian nhận thưởng đã hết. (%{errorCode}) ",
         "pf_header_server_seed_sha256_single": "Server Seed SHA256",
-        "pf_ header_merge_client_seed_single": "Kết hợp Client Seed "
+        "pf_ header_merge_client_seed_single": "Kết hợp Client Seed ",
+        "message_error_claim_expired": "Thời gian nhận thưởng đã hết. (%{errorCode}) ",
+        "player": "Người Chơi"
     },
     "SeDie": {
         "bet_option_red2": "2 Đỏ",
@@ -245,7 +246,11 @@ export const languages = {
         "game_name": "Xóc Đĩa",
         "glossary_even": "Chẵn",
         "glossary_odd": "Lẻ",
-        "odd_win": "LẺ THẮNG"
+        "odd_win": "LẺ THẮNG",
+        "pf_verifier_tool_para_24": "Chuyển đổi nhóm 2 ký tự trong chuỗi SHA512 sang hệ thập phân",
+        "glossary_white": "Trắng",
+        "glossary_red": "Đỏ",
+        "pf_verifier_tool_button": "Button {value}"
     }
 };
 

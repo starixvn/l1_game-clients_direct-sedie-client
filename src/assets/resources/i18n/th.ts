@@ -230,9 +230,10 @@ export const languages = {
         "all": null,
         "sabaplay_tagline": "มากกว่าแค่เกม",
         "message_loading": "Loading",
-        "Claim_expired_error_message": "โบนัสหมดอายุ ไม่สามารถใช้งานได้อีกต่อไป (%{errorCode})",
         "pf_header_server_seed_sha256_single": "Server Seed SHA256 ",
-        "pf_ header_merge_client_seed_single": "ผสาน Client Seed"
+        "pf_ header_merge_client_seed_single": "ผสาน Client Seed",
+        "message_error_claim_expired": "โบนัสหมดอายุ ไม่สามารถใช้งานได้อีกต่อไป (%{errorCode})",
+        "player": "ผู้เล่น"
     },
     "SeDie": {
         "bet_option_red2": "2 แดง",
@@ -245,7 +246,11 @@ export const languages = {
         "game_name": "Se Die",
         "glossary_even": "คู่",
         "glossary_odd": "คี่",
-        "odd_win": "คี่ชนะ"
+        "odd_win": "คี่ชนะ",
+        "pf_verifier_tool_para_24": "แปลงอักขระ 2 ตัวแต่ละกลุ่มใน SHA512 เป็นทศนิยม",
+        "glossary_white": "ขาว",
+        "glossary_red": "แดง",
+        "pf_verifier_tool_button": "Button {value}"
     }
 };
 

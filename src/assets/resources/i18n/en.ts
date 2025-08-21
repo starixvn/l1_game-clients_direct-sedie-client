@@ -230,9 +230,10 @@ export const languages = {
         "all": "All",
         "sabaplay_tagline": "Beyond the Game",
         "message_loading": "Loading",
-        "Claim_expired_error_message": "The Bonus is expired. No longer available. (%{errorCode}) ",
         "pf_header_server_seed_sha256_single": "Server Seed SHA256",
-        "pf_ header_merge_client_seed_single": "Merge Client Seed"
+        "pf_ header_merge_client_seed_single": "Merge Client Seed",
+        "message_error_claim_expired": "The Bonus is expired. No longer available. (%{errorCode}) ",
+        "player": "Player"
     },
     "SeDie": {
         "bet_option_red2": "2 Red",
@@ -245,7 +246,11 @@ export const languages = {
         "game_name": "Se Die",
         "glossary_even": "Even",
         "glossary_odd": "Odd",
-        "odd_win": "ODD WINS"
+        "odd_win": "ODD WINS",
+        "pf_verifier_tool_para_24": "Convert each group of 2 characters in the SHA512 to Decimal",
+        "glossary_white": "White",
+        "glossary_red": "Red",
+        "pf_verifier_tool_button": "Button {value}"
     }
 };
 

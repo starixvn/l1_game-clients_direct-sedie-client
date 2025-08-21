@@ -230,9 +230,10 @@ export const languages = {
         "all": null,
         "sabaplay_tagline": "BUKAN SEKADAR PERMAINAN",
         "message_loading": "Loading",
-        "Claim_expired_error_message": "Bonus berakhir. Tidak lagi tersedia. (%{errorCode})",
         "pf_header_server_seed_sha256_single": "Server Seed SHA256 ",
-        "pf_ header_merge_client_seed_single": "Gabungkan Seed Klien"
+        "pf_ header_merge_client_seed_single": "Gabungkan Seed Klien",
+        "message_error_claim_expired": "Bonus berakhir. Tidak lagi tersedia. (%{errorCode})",
+        "player": "Player"
     },
     "SeDie": {
         "bet_option_red2": "2 Merah",
@@ -245,7 +246,11 @@ export const languages = {
         "game_name": "Se Die",
         "glossary_even": "Genap",
         "glossary_odd": "Ganjil",
-        "odd_win": "GANJIL MENANG"
+        "odd_win": "GANJIL MENANG",
+        "pf_verifier_tool_para_24": "Ubah setiap grup yang terdiri dari 2 karakter di SHA512 menjadi Desimal",
+        "glossary_white": "Putih",
+        "glossary_red": "Merah",
+        "pf_verifier_tool_button": "Button {value}"
     }
 };
 

@@ -181,8 +181,8 @@ export const languages = {
         "sha256": "SHA-256",
         "multiplier_time": "당첨 부스트!",
         "betChoice2": "베팅 선택",
-        "odd_win": "홀수 승리",
-        "even_win": "짝수 승리",
+        "odd_win": "홀수 승",
+        "even_win": "짝수 승",
         "bet_choice_away": "원정",
         "bet_choice_even": "짝",
         "bet_choice_home": "홈",
@@ -198,8 +198,8 @@ export const languages = {
         "invalid_stake_level": "유효하지 않은 스테이크 레벨입니다.",
         "betChoice_shorten": "베팅 선택",
         "total_stake_shorten": "총 베팅 금액",
-        "text_big_wins": "Big Wins!",
-        "text_small_win": "소액 당첨!",
+        "text_big_wins": "빅 승!",
+        "text_small_win": "스몰 승!",
         "message_balanced_betting_pool": "균형 잡힌 베팅 풀",
         "refund": "환불",
         "button_confirm": "확인",
@@ -230,9 +230,10 @@ export const languages = {
         "message_loading": "로딩 중",
         "message_place_bets": "베팅하세요",
         "copy_successfully_md5": "복사 완료!",
-        "Claim_expired_error_message": "Bonus가 만료되었습니다. 더 이상 사용할 수 없습니다. (%{errorCode})",
         "pf_header_server_seed_sha256_single": "서버 시드 SHA256",
-        "pf_ header_merge_client_seed_single": "클라이언트 시드 병합"
+        "pf_ header_merge_client_seed_single": "클라이언트 시드 병합",
+        "message_error_claim_expired": "Bonus가 만료되었습니다. 더 이상 사용할 수 없습니다. (%{errorCode})",
+        "player": "플레이어"
     },
     "SeDie": {
         "game_icon_name": "식보",
@@ -244,8 +245,12 @@ export const languages = {
         "game_name": "다이사이",
         "glossary_even": "짝",
         "glossary_odd": "홀",
-        "odd_win": "홀수 승리",
-        "even_win": "짝수 승리"
+        "odd_win": "홀수 승",
+        "even_win": "짝수 승",
+        "pf_verifier_tool_para_24": "SHA512의 각 2자리 문자 그룹을 십진수로 변환",
+        "glossary_white": "하양",
+        "glossary_red": "빨강",
+        "pf_verifier_tool_button": "Button {value}"
     }
 };
 

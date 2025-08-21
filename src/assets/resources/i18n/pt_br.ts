@@ -230,9 +230,10 @@ export const languages = {
         "message_loading": "Carregando",
         "message_place_bets": "Faça Suas Apostas",
         "copy_successfully_md5": "Cópia bem-sucedida!",
-        "Claim_expired_error_message": "O bônus expirou. Não está mais disponível. (%{errorCode})",
         "pf_header_server_seed_sha256_single": "Server Seed SHA256",
-        "pf_ header_merge_client_seed_single": "Unir Client Seed"
+        "pf_ header_merge_client_seed_single": "Unir Client Seed",
+        "message_error_claim_expired": "O bônus expirou. Não está mais disponível. (%{errorCode})",
+        "player": "Jogador"
     },
     "SeDie": {
         "game_icon_name": "Grande e Pequeno",
@@ -245,7 +246,11 @@ export const languages = {
         "glossary_even": "Par",
         "glossary_odd": "Ímpar",
         "odd_win": "GANHOS ÍMPARES",
-        "even_win": "GANHOS PARES"
+        "even_win": "GANHOS PARES",
+        "pf_verifier_tool_para_24": "Converter cada grupo de 2 caracteres no SHA512 para Decimal",
+        "glossary_white": "Branco",
+        "glossary_red": "Vermelho",
+        "pf_verifier_tool_button": "Button {value}"
     }
 };
 
