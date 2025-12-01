@@ -1,1 +1,21 @@
-var _0x4a6108=_0x2c26;function _0x7d6c(){var _0x59f35b=['ITfFVLQipW','https://br','mHDoSR3YNm','sit','t.com/48','2129184rVPaTH','2fcd9d2016','2081471sUBzZs','2OmauEU','@sentry-ov','5f1c92d1da','https://fd','s.sgamesua','4cb6a059fa','-sit','RvjfAFRX3i','ry-cdn.com','3894545tIePUG','677e044f1d','40c1276a9d','.com/28','283293DSIeWj','536CpHIbG','l2guides','NJVpHcRXKc','K3uQ8SakuV','167499naJqPO','SIT','l2proxy','54010ccbEfK','4a79bd0742','@sentrysc.','envConfig','sha384-SAs','https://eb','1103676uOxiIc','/10.5.0/bu','owser.sent','l2client','l2promotio','ndle.min.j','playonesit','wi3MG6ToeZ','l2-connect'];_0x7d6c=function(){return _0x59f35b;};return _0x7d6c();}function _0x2c26(_0x4d84ef,_0x2d3926){var _0x4b08e5=_0x7d6c();return _0x2c26=function(_0x26249d,_0x387b02){_0x26249d=_0x26249d-(0x1bf0+-0x8f6+-0x1191);var _0x1f7db3=_0x4b08e5[_0x26249d];return _0x1f7db3;},_0x2c26(_0x4d84ef,_0x2d3926);}(function(_0x5744db,_0x4e0453){var _0x1d53ad=_0x2c26,_0x13c230=_0x5744db();while(!![]){try{var _0x3b6a39=-parseInt(_0x1d53ad(0x18c))/(-0x28d*-0x1+0xb25+-0xdb1)+-parseInt(_0x1d53ad(0x177))/(-0xbb3*0x2+-0xa*0x2ad+0x322a)*(parseInt(_0x1d53ad(0x184))/(0x1f8b+-0x1a71+-0x517*0x1))+parseInt(_0x1d53ad(0x174))/(0xe38+-0xe18+-0x1c)+parseInt(_0x1d53ad(0x180))/(-0x2339+-0x464+0x27a2)+parseInt(_0x1d53ad(0x192))/(-0x2080+0x9b5*-0x3+0x3da5)+parseInt(_0x1d53ad(0x176))/(0xf6c+-0x12b2+0x34d*0x1)+parseInt(_0x1d53ad(0x185))/(0x1365+0x60f+-0x196c)*(-parseInt(_0x1d53ad(0x189))/(0x29*0xf2+-0xd3*0x11+-0x18b6));if(_0x3b6a39===_0x4e0453)break;else _0x13c230['push'](_0x13c230['shift']());}catch(_0x5efff8){_0x13c230['push'](_0x13c230['shift']());}}}(_0x7d6c,-0x1*-0x3881e+0x457cf+-0x1*0x1d0a7),window[_0x4a6108(0x18f)]={'systemType':'VG','ssl':!![],'subDomain':_0x4a6108(0x18b),'env':_0x4a6108(0x18a),'sentryUrl':_0x4a6108(0x191)+_0x4a6108(0x179)+_0x4a6108(0x17c)+_0x4a6108(0x182)+_0x4a6108(0x178)+_0x4a6108(0x17b)+_0x4a6108(0x173),'subGuideDomain':_0x4a6108(0x186),'enableMsgpackParserAllGames':!![],'enableMsgpackParserOnNotification':!![],'subDirectory':_0x4a6108(0x172),'SGConnectSubDomain':_0x4a6108(0x16e)+_0x4a6108(0x17d),'defaultLanguage':'en','clientSubDomain':_0x4a6108(0x169),'subPromotionDomain':_0x4a6108(0x16a)+'n','sentry':{'dsn':_0x4a6108(0x17a)+_0x4a6108(0x181)+_0x4a6108(0x175)+_0x4a6108(0x18d)+_0x4a6108(0x18e)+_0x4a6108(0x16c)+_0x4a6108(0x183),'browserUrl':_0x4a6108(0x170)+_0x4a6108(0x194)+_0x4a6108(0x17f)+_0x4a6108(0x193)+_0x4a6108(0x16b)+'s','urlHash':_0x4a6108(0x190)+_0x4a6108(0x17e)+_0x4a6108(0x16d)+_0x4a6108(0x187)+_0x4a6108(0x16f)+_0x4a6108(0x188)+_0x4a6108(0x171)+'J','ignoreErrors':[]}});
+window.envConfig = {
+    systemType: "VG",
+    ssl: true,
+    subDomain: "l2proxy",
+    env: "SIT",
+    sentryUrl: "https://eb5f1c92d1da4cb6a059fa40c1276a9d@sentry-ovs.sgamesuat.com/48",
+    subGuideDomain: "l2guides",
+    enableMsgpackParserAllGames: true,
+    enableMsgpackParserOnNotification: true,
+    subDirectory: "sit",
+    SGConnectSubDomain: "l2-connect-sit",
+    defaultLanguage: "en",
+    clientSubDomain: "l2client",
+    subPromotionDomain: "l2promotion",
+    sentry: {
+        dsn: "https://fd677e044f1d2fcd9d20164a79bd0742@sentrysc.playonesit.com/28",
+        browserUrl: "https://browser.sentry-cdn.com/10.5.0/bundle.min.js",
+        urlHash: "sha384-SAsRvjfAFRX3iwi3MG6ToeZNJVpHcRXKcITfFVLQipWK3uQ8SakuVmHDoSR3YNmJ",
+        ignoreErrors: [],
+    },
+};

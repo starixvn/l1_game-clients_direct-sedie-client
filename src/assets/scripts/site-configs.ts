@@ -9,14 +9,14 @@ declare global {
 
 const defaultConfig: gc.Configs.SiteConfigs = {
     isDev: false, // if this property is true, then you should add token=anything into the querytring to sso to the game http://localhost:7456/?token=anything
-    systemType: "VG",
+    systemType: "HD",
     serverDomainMapper: {
         localhost: "lumigame.com",
     },
     ssl: true,
-    subDomain: "l2-proxy",
+    subDomain: "hd-proxy",
     env: "LOCAL",
-    subGuideDomain: "l1-guide1",
+    subGuideDomain: "hd-guide1",
     SGConnectSubDomain: "connectsite",
     enableMsgpackParserAllGames: false,
     enableMsgpackParserOnNotification: false,
@@ -26,10 +26,11 @@ const defaultConfig: gc.Configs.SiteConfigs = {
     },
     tolgeeUrl: "",
     storagePrefixKey: "portrait_sedie",
+    decimalPlaces: 4,
     sentry: {
-        dsn: "https://9c999f9b51e3b4543cb160b946b5bcbe@sentry-k8s.lumigame.com/30",
-        browserUrl: "https://browser.sentry-cdn.com/10.5.0/bundle.min.js",
-        urlHash: "sha384-SAsRvjfAFRX3iwi3MG6ToeZNJVpHcRXKcITfFVLQipWK3uQ8SakuVmHDoSR3YNmJ",
+        dsn: "",
+        browserUrl: "",
+        urlHash: "",
         ignoreErrors: [],
     },
 };
