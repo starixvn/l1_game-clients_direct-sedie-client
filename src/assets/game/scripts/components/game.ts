@@ -42,10 +42,13 @@ export default class Game extends GameComponent {
     private winningResult: WinningResult = null;
     private readonly soundWinChoice = ["odd", "even"];
     private currentFinish: gc.GameServiceMessage.Finish = null;
+    private readonly delayGetBalance = 1;
 
     onLoad() {
         this.compPlate = this.nodePlate.getComponent(Plate);
         this.winningResult = this.nodeWinning.getComponent(WinningResult);
+        this.chipFlying.setDelayGetBalance(this.delayGetBalance);
+
         super.onLoad();
     }
 
